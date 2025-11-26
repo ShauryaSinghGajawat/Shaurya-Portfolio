@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shaurya Singh Gajawat — Game Environment Art Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Shaurya Singh Gajawat, aspiring game environment artist applying to DAE Howest — Game Graphics Production." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="home-page">
+  <div class="page">
+    <!-- ================= HEADER ================= -->
+    <header class="site-header glass">
+      <div class="brand">
+        <div class="logo">AS</div>
+        <div class="brand-text">
+          <h1>Shaurya Singh Gajawat</h1>
+          <p>Game Graphics Production Major · DAE Howest Aspirant</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#skills">Tools &amp; Skills</a>
+        <a href="#contact" class="nav-btn">Contact</a>
+      </nav>
+    </header>
+
+    <!-- ================= HERO / SLIDER ================= -->
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-slider">
+          <!-- Add/remove slides by duplicating this <article> block -->
+          <article class="hero-slide active" data-title="Sci-Fi Headset"
+            data-caption="Modular corridor environment built for real-time lighting in Unreal Engine.">
+            <img src="media/images/main-highlights/headset_01_render.jpg" alt="Sci-fi corridor 3D environment" />
+          </article>
+
+          <article class="hero-slide" data-title="Telephone"
+            data-caption="Overgrown ruins focusing on mood, foliage and atmospheric depth.">
+            <img src="media/images/Telephone Best/shaurya-singh-gajawat-learning-environment-artist-thumbnail.jpg"
+              alt="Ancient temple environment" />
+          </article>
+
+          <article class="hero-slide" data-title="Arcane Cube"
+            data-caption="Stylized cyberpunk alley with storytelling props and decals.">
+            <img src="media/images/Cube Arcaned Best/shaurya-singh-gajawat-learning-environment-artist-thumbnail.jpg"
+              alt="Neon city alley environment" />
+          </article>
+
+          <!-- Controls -->
+          <button class="hero-control prev" aria-label="Previous slide">
+            ‹
+          </button>
+          <button class="hero-control next" aria-label="Next slide">
+            ›
+          </button>
+
+          <!-- Dots (auto-filled by JS) -->
+          <div class="hero-dots" aria-label="Slider pagination"></div>
+
+          <!-- Dynamic hover text bar -->
+          <div class="hero-text">
+            <div class="hero-text-main">
+              <p class="hero-kicker">Game Environment Art</p>
+              <h2 class="hero-title js-hero-title">Sci-Fi Headset-01</h2>
+              <p class="hero-caption js-hero-caption">
+                Modular corridor environment built for real-time lighting in Unreal Engine.
+              </p>
+            </div>
+            <div class="hero-actions">
+              <a href="#gallery" class="btn-primary">View Gallery</a>
+              <a href="#about" class="btn-ghost">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= NEW FEATURED ENVIRONMENTS (TOP) ================= -->
+      <section id="featured-latest" class="section section-featured">
+        <div class="section-header">
+          <h2>Featured Environments</h2>
+          <p>Recent hero pieces that best represent my current level.</p>
+        </div>
+
+        <div class="gallery-featured-grid">
+          <!-- Featured Card 1: Craddle of Thoughts -->
+          <a class="card-link" href="project.html?project=braininjar">
+            <article class="card glass" data-tags="scifi props">
+              <div class="card-thumb">
+                <img
+                  src="/media/images/Environment-1/ShauryaGajawat_FianlProject_Spacecraft_Blocking.0306.png"
+                  alt="Brain in jar environment" />
+              </div>
+              <div class="card-body">
+                <h3>Craddle of Thoughts</h3>
+                <p>Moody sci-fi prop environment focused on lighting and storytelling.</p>
+                <div class="card-tags">
+                  <span>Sci-Fi</span>
+                  <span>Lighting</span>
+                  <span>Storytelling</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Featured Card 2: Just a Bag! -->
+          <a class="card-link" href="project.html?project=bag">
+            <article class="card glass" data-tags="props hard-surface">
+              <div class="card-thumb">
+                <img
+                  src="media/images/Class Room 06/classroom render 3.png"
+                  alt="Backpack hero prop" />
+              </div>
+              <div class="card-body">
+                <h3>Just a Bag!</h3>
+                <p>Hero backpack prop with detailed materials and lighting studies.</p>
+                <div class="card-tags">
+                  <span>Props</span>
+                  <span>Hard Surface</span>
+                  <span>Presentation</span>
+                </div>
+              </div>
+            </article>
+          </a>
+        </div>
+      </section>
+
+      <!-- ================= OLD FEATURED ENVIRONMENTS (GALLERY) ================= -->
+      <section id="gallery" class="section">
+        <div class="section-header">
+          <h2>Featured Assets</h2>
+          <p>Curated pieces showcasing lighting, composition, modularity and storytelling.</p>
+        </div>
+
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="realistic">Realistic</button>
+          <button class="filter-btn" data-filter="stylized">Stylized</button>
+          <button class="filter-btn" data-filter="scifi">Sci-Fi</button>
+          <button class="filter-btn" data-filter="nature">Nature</button>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Card 1 -->
+          <a class="card-link" href="project.html?project=grass">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img
+                  src="https://cdnb.artstation.com/p/assets/images/images/076/670/797/large/shaurya-singh-gajawat-learning-environment-artist-edite-prerender-003.jpg?1717515004"
+                  alt="grass" />
+              </div>
+              <div class="card-body">
+                <h3>Grass Landscape</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 2 -->
+          <a class="card-link" href="project.html?project=sea">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img src="media/images/Ocean Best/shaurya-singh-gajawat-learning-environment-artist-fine-thumnails.jpg"
+                  alt="Forest ruins environment" />
+              </div>
+              <div class="card-body">
+                <h3>Sea</h3>
+                <p>Balancing foliage density, fog and focal points for clear readability.</p>
+                <div class="card-tags">
+                  <span>Environment</span>
+                  <span>Lighting</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 3 -->
+          <a class="card-link" href="project.html?project=hippo">
+            <article class="card glass" data-tags="stylized scifi">
+              <div class="card-thumb">
+                <img src="media/images/08 Teddy/Teddy.JPG" alt="Stylized neon alley" />
+              </div>
+              <div class="card-body">
+                <h3>Pink Hippo</h3>
+                <p>Stylized props, decals and lighting for a story-driven composition.</p>
+                <div class="card-tags">
+                  <span>Stylized</span>
+                  <span>Urban</span>
+                  <span>VFX</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 4 -->
+          <a class="card-link" href="project.html?project=clifftop-shrine">
+            <article class="card glass" data-tags="stylized nature">
+              <div class="card-thumb">
+                <img src="media/images/Concept - Light Shrine/2Final.jpg" alt="Stylized temple cliff" />
+              </div>
+              <div class="card-body">
+                <h3>Clifftop Shrine</h3>
+                <p>Loose hand-painted style with strong silhouettes and sky read.</p>
+                <div class="card-tags">
+                  <span>Stylized</span>
+                  <span>Hand-Painted</span>
+                  <span>Composition</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 5 -->
+          <a class="card-link" href="project.html?project=arcane-cube">
+            <article class="card glass" data-tags="realistic scifi">
+              <div class="card-thumb">
+                <img
+                  src="media/images/Cube Arcaned Best/shaurya-singh-gajawat-learning-environment-artist-shaded-0606.jpg"
+                  alt="Sci-fi lab interior" />
+              </div>
+              <div class="card-body">
+                <h3>Arcane Cube</h3>
+                <p>Hard-surface modeling and material variation for believable surfaces.</p>
+                <div class="card-tags">
+                  <span>Hard Surface</span>
+                  <span>Materials</span>
+                  <span>Sci-Fi</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 6 -->
+          <a class="card-link" href="project.html?project=mountain-village">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img src="media/images/Hut Stylized bEST/shaurya-singh-gajawat-learning-environment-artist-05.jpg"
+                  alt="Mountain village" />
+              </div>
+              <div class="card-body">
+                <h3>Mountain Village</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 7 -->
+          <a class="card-link" href="project.html?project=skull">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img src="media/images/Citha Skull Best/shaurya-singh-gajawat-learning-environment-artist-rgfgfdgf.jpg"
+                  alt="Cheetah Skull" />
+              </div>
+              <div class="card-body">
+                <h3>Cheetah Skull</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 8 -->
+          <a class="card-link" href="project.html?project=crate">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img src="media/images/Crate Best 0/shaurya-singh-gajawat-learning-environment-artist-untitled-2-3.jpg"
+                  alt="Sci-fi Crate" />
+              </div>
+              <div class="card-body">
+                <h3>Sci-fi Crate</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 9 -->
+          <a class="card-link" href="project.html?project=knife">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img src="media/images/Knive Best 03/shaurya-singh-gajawat-environment-props-inkedrender-006.jpg"
+                  alt="Knife" />
+              </div>
+              <div class="card-body">
+                <h3>Knife</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 10 -->
+          <a class="card-link" href="project.html?project=medieval-home">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img src="media/images/Medieval Incomplete House/photo_2023-03-25_16-30-29.jpg" alt="medieval-home" />
+              </div>
+              <div class="card-body">
+                <h3>Medieval Home</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 11 -->
+          <a class="card-link" href="project.html?project=locket">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img src="media/images/Silver Locket/Render_002.png" alt="locket" />
+              </div>
+              <div class="card-body">
+                <h3>Silver Locket</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 12 -->
+          <a class="card-link" href="project.html?project=telephone">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img src="media/images/Telephone Best/shaurya-singh-gajawat-learning-environment-artist-thumbnail.jpg"
+                  alt="Telephone" />
+              </div>
+              <div class="card-body">
+                <h3>Telephone</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 13 -->
+          <a class="card-link" href="project.html?project=tiles">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img
+                  src="media/images/Tiles Textures/shaurya-singh-gajawat-learning-environment-artist-old-yellow-wholsome (1).jpg"
+                  alt="tiles" />
+              </div>
+              <div class="card-body">
+                <h3>Tiles</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 14 -->
+          <a class="card-link" href="project.html?project=carriage">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img
+                  src="media/images/Wooden Carriage Best/shaurya-singh-gajawat-learning-environment-artist-render-0003.jpg"
+                  alt="carriage" />
+              </div>
+              <div class="card-body">
+                <h3>Wooden Carriage</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 15 -->
+          <a class="card-link" href="project.html?project=braininjar">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img
+                  src="https://cdna.artstation.com/p/assets/images/images/089/787/478/large/shaurya-singh-gajawat-learning-environment-artist-002-no-rays-render.jpg?1751960892"
+                  alt="braininjar" />
+              </div>
+              <div class="card-body">
+                <h3>Craddle of Thoughts</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 16 -->
+          <a class="card-link" href="project.html?project=bag">
+            <article class="card glass" data-tags="realistic nature">
+              <div class="card-thumb">
+                <img
+                  src="https://cdna.artstation.com/p/assets/images/images/089/273/092/large/shaurya-singh-gajawat-learning-environment-artist-color.jpg?1750515281"
+                  alt="bag" />
+              </div>
+              <div class="card-body">
+                <h3>Just a Bag!</h3>
+                <p>Storytelling through props, wear, and subtle lighting variations.</p>
+                <div class="card-tags">
+                  <span>Storytelling</span>
+                  <span>Props</span>
+                  <span>Nature</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 17 -->
+          <a class="card-link" href="project.html?project=hammer">
+            <article class="card glass" data-tags="realistic scifi">
+              <div class="card-thumb">
+                <img
+                  src="media/images/Hammer Best/shaurya-singh-gajawat-learning-environment-artist-hammer-render-01.jpg"
+                  alt="Realistic sci-fi corridor" />
+              </div>
+              <div class="card-body">
+                <h3>Hammer</h3>
+                <p>Trim sheets, reusable kits and baked lighting with subtle VFX.</p>
+                <div class="card-tags">
+                  <span>Unreal Engine</span>
+                  <span>Modular</span>
+                  <span>Sci-Fi</span>
+                </div>
+              </div>
+            </article>
+          </a>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT ================= -->
+      <section id="about" class="section section-split">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <p>Aspiring game environment artist aiming for DAE — Game Graphics Production Major.</p>
+        </div>
+
+        <div class="split">
+          <!-- PROFILE PHOTO TILE (no black tile, only white area + black border on image) -->
+          <div class="split-block about-photo-block">
+            <div class="about-photo-frame">
+              <img src="media/images/profile-photo.png" alt="Portrait of Aditya Singh">
+            </div>
+          </div>
+
+          <!-- TEXT TILE -->
+          <div class="split-block glass about-text-block">
+            <h3>What I Care About</h3>
+            <ul class="about-list">
+              <li>Gameplay-friendly layout and clear navigation for the player.</li>
+              <li>Strong focal points and value structure to lead the eye.</li>
+              <li>Material definition and believable detail density.</li>
+              <li>Optimized assets for real-time engines like Unreal.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TOOLS & SKILLS ================= -->
+      <section id="skills" class="section section-tools-skills">
+        <div class="section-header">
+          <h2>Tools &amp; Skills</h2>
+          <p>Focused on real-time game environment production.</p>
+        </div>
+
+        <div class="tools-skills-layout">
+          <!-- Tools panel (ICONS ONLY) -->
+          <div class="panel tools-panel glass">
+            <h3>Tools</h3>
+            <p class="panel-subtitle">Software I use for game environment art.</p>
+
+            <div class="tool-icon-grid">
+              <div class="tool-icon-large">
+                <img src="media/icons/maya.png" alt="Maya logo">
+              </div>
+              <div class="tool-icon-large">
+                <img src="media/icons/blender.png" alt="Blender logo">
+              </div>
+              <div class="tool-icon-large">
+                <img src="media/icons/unreal.png" alt="Unreal Engine logo">
+              </div>
+              <div class="tool-icon-large">
+                <img src="media/icons/zbrush-icon.png" alt="ZBrush logo">
+              </div>
+              <div class="tool-icon-large">
+                <img src="media/icons/marmoset.png" alt="Marmoset logo">
+              </div>
+              <div class="tool-icon-large">
+                <img src="media/icons/photoshop.png" alt="Photoshop logo">
+              </div>
+              <div class="tool-icon-large">
+                <img src="media/icons/speedtree.png" alt="SpeedTree logo">
+              </div>
+              <div class="tool-icon-large">
+                <img src="media/icons/painter.png" alt="Painter logo">
+              </div>
+              <div class="tool-icon-large">
+                <img src="media/icons/designer.png" alt="Designer logo">
+              </div>
+              <div class="tool-icon-large">
+                <img src="media/icons/mari.png" alt="Mari logo">
+              </div>
+              <div class="tool-icon-large">
+                <img src="media/icons/worldmachine.png" alt="Mari logo">
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills panel with tabs -->
+          <div class="panel skills-panel glass">
+            <h3>Skills</h3>
+            <p class="panel-subtitle">What I focus on when building worlds.</p>
+
+            <div class="skill-tabs" role="tablist">
+              <button class="skill-tab active" data-skill-tab="envart" role="tab">
+                Env Art
+              </button>
+              <button class="skill-tab" data-skill-tab="technical" role="tab">
+                Technical
+              </button>
+              <button class="skill-tab" data-skill-tab="workflow" role="tab">
+                Workflow
+              </button>
+              <button class="skill-tab" data-skill-tab="soft" role="tab">
+                Personal
+              </button>
+            </div>
+
+            <div class="skill-contents">
+              <div class="skill-content active" data-skill-content="envart">
+                <ul>
+                  <li>Composition and leading the eye with strong focal points.</li>
+                  <li>Value planning in grayscale before adding texture detail.</li>
+                  <li>Environment storytelling using props, decals and lighting.</li>
+                  <li>Balancing detail density for readability in gameplay.</li>
+                </ul>
+              </div>
+
+              <div class="skill-content" data-skill-content="technical">
+                <ul>
+                  <li>Modular level design for reusable environment kits.</li>
+                  <li>Trim-sheet and tiling texture workflows.</li>
+                  <li>Lightmap setup, basic optimization &amp; LOD awareness.</li>
+                  <li>Using Blueprints to support environment interactions.</li>
+                </ul>
+              </div>
+
+              <div class="skill-content" data-skill-content="workflow">
+                <ul>
+                  <li>Blockout → first lighting pass → detailing → polish.</li>
+                  <li>Using reference boards and callouts before modeling.</li>
+                  <li>Quick graybox iterations to test gameplay navigation.</li>
+                  <li>Non-destructive material setups for easy iteration.</li>
+                </ul>
+              </div>
+
+              <div class="skill-content" data-skill-content="soft">
+                <ul>
+                  <li>Taking feedback and applying it across multiple passes.</li>
+                  <li>Documenting my decisions so designers understand intent.</li>
+                  <li>Staying organized with naming, folders and versioning.</li>
+                  <li>Always learning from ArtStation breakdowns &amp; talks.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+      <section id="contact" class="section section-contact">
+        <div class="section-header section-header-centered">
+          <h2>Contact</h2>
+          <p>If you'd like extra materials (source, demos, or videos) I can share them on request — please specify which
+            project.</p>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <div class="contact-field">
+            <label class="contact-label" for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+          </div>
+
+          <div class="contact-row">
+            <div class="contact-field">
+              <label class="contact-label" for="name">Your name</label>
+              <input id="name" name="name" type="text" placeholder="Name" required />
+            </div>
+
+            <div class="contact-field">
+              <label class="contact-label" for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Email" required />
+            </div>
+          </div>
+
+          <button type="submit" class="contact-submit">Send message</button>
+
+          <p class="contact-note">
+            This will open your email app with a pre-filled message to send to me.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+      <p>Copyright &copy; <span id="year"></span> Shaurya Singh Gajawat — Game Environment Art</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

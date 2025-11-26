@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project — Aditya Singh</title>
+  <meta name="description" content="Detailed project page for Aditya's game environment portfolio." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="project-page">
+  <div class="page">
+    <!-- ================= HEADER ================= -->
+    <header class="site-header glass">
+      <div class="brand">
+        <div class="logo">AS</div>
+        <div class="brand-text">
+          <h1>Aditya Singh</h1>
+          <p>Game Environment Art · DAE Howest Aspirant</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact" class="nav-btn">Contact</a>
+      </nav>
+    </header>
+
+    <!-- ================= PROJECT CONTENT ================= -->
+    <main class="project-main">
+      <a href="index.html#gallery" class="back-link">← Back to Gallery</a>
+
+      <section class="project-section" id="project-root">
+        <header class="project-header">
+          <p class="project-kicker">Featured Arts</p>
+          <h1 id="project-title">Loading...</h1>
+          <p id="project-subtitle" class="project-subtitle"></p>
+        </header>
+
+        <div class="project-layout">
+          <!-- LEFT: ArtStation-style framed media wall -->
+          <div class="project-media-column">
+            <div class="project-media-outer">
+              <div class="project-media-inner">
+                <div id="project-media-stack" class="project-media-stack">
+                  <!-- JS injects stacked images / videos + captions -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: Sidebar -->
+          <aside class="project-sidebar">
+            <div class="project-meta glass">
+              <ul class="project-meta-list">
+                <li>
+                  <span>Role</span>
+                  <strong id="project-role"></strong>
+                </li>
+                <li>
+                  <span>Engine</span>
+                  <strong id="project-engine"></strong>
+                </li>
+                <li>
+                  <span>Software</span>
+                  <strong id="project-software"></strong>
+                </li>
+                <li>
+                  <span>Year</span>
+                  <strong id="project-year"></strong>
+                </li>
+              </ul>
+              <div id="project-tags" class="project-tag-list"></div>
+            </div>
+
+            <div class="project-description glass" id="project-description">
+              <!-- JS fills description -->
+            </div>
+
+            <div class="project-breakdown glass" id="project-breakdown">
+              <!-- JS fills breakdown -->
+            </div>
+
+            <!-- more projects thumbs -->
+            <section class="project-more-projects glass" id="project-more-projects">
+              <!-- JS injects related project thumbs -->
+            </section>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ================= LIGHTBOX (FULLSCREEN VIEWER) ================= -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close media viewer">×</button>
+    <div class="lightbox-inner">
+      <img id="lightbox-img" alt="" />
+      <video id="lightbox-video" controls playsinline></video>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
