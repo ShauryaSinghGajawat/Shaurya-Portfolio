@@ -494,7 +494,7 @@ const PROJECTS = [
       },
       {
         type: "image",
-        src: "media/images/Telephone Best/shaurya-singh-gajawat-learning-environment-artist-rende4r-top-front.jpg",
+        src: "media/images/Telephone Best/shaurya-singg-gajawat-learning-environment-artist-rende4r-top-front.jpg",
         alt: "Angled view showing top and front"
       }
     ],
@@ -953,7 +953,7 @@ if (galleryCards.length) {
 
 const pageBody = document.body;
 
-// Now dimming applies to ALL tiles (new + old) because all use .card-link
+// dimming applies to all tiles using .card-link
 const cardWrappers = document.querySelectorAll(".card-link");
 
 cardWrappers.forEach((wrapper) => {
@@ -1040,7 +1040,7 @@ function renderProjectPage() {
     return;
   }
 
-  document.title = `${project.title} — Aditya Singh`;
+  document.title = `${project.title} — Shaurya Singh Gajawat`;
 
   if (titleEl) titleEl.textContent = project.title;
   if (subtitleEl) subtitleEl.textContent = project.subtitle || "";
@@ -1230,26 +1230,57 @@ if (yearSpan) {
   yearSpan.textContent = new Date().getFullYear();
 }
 
-// ================= CONTACT FORM =================
+// ================= CONTACT FORM (EMAILJS) =================
 
 const contactForm = document.getElementById("contact-form");
+const contactStatus = document.getElementById("contact-status");
+const contactSubmit = document.getElementById("contact-submit");
 
 if (contactForm) {
   contactForm.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    const name = contactForm.name.value.trim();
-    const email = contactForm.email.value.trim();
-    const message = contactForm.message.value.trim();
+    if (!window.emailjs) {
+      if (contactStatus) {
+        contactStatus.textContent =
+          "Contact service is unavailable right now. Please try again later.";
+      }
+      console.warn("EmailJS SDK not loaded – check the script tag in index.html.");
+      return;
+    }
 
-    const subject = encodeURIComponent(
-      "Portfolio contact from " + (name || "visitor")
-    );
+    if (contactStatus) {
+      contactStatus.textContent = "Sending your message...";
+    }
+    if (contactSubmit) {
+      contactSubmit.disabled = true;
+    }
 
-    const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
-    );
-
-    window.location.href = `mailto:shauryasinghgajawat@gmail.com?subject=${subject}&body=${body}`;
+    // Send form via EmailJS using your real IDs
+    emailjs
+      .sendForm(
+        "service_58hij15",    // your SERVICE ID
+        "template_3k60zer",   // your TEMPLATE ID
+        contactForm
+      )
+      .then(() => {
+        if (contactStatus) {
+          contactStatus.textContent = "Message sent! I'll get back to you soon.";
+        }
+        contactForm.reset();
+        if (contactSubmit) {
+          contactSubmit.disabled = false;
+        }
+      })
+      .catch((error) => {
+        console.error("EmailJS error:", error);
+        if (contactStatus) {
+          contactStatus.textContent =
+            "Something went wrong while sending. Please try again in a moment.";
+        }
+        if (contactSubmit) {
+          contactSubmit.disabled = false;
+        }
+      });
   });
 }

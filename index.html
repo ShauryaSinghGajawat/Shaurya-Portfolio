@@ -8,6 +8,17 @@
   <meta name="description"
     content="Portfolio of Shaurya Singh Gajawat, aspiring game environment artist applying to DAE Howest — Game Graphics Production." />
   <link rel="stylesheet" href="style.css" />
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    // Initialize EmailJS with your public key
+    (function () {
+      if (window.emailjs) {
+        emailjs.init("1JJtxmWdiyqt7bUql"); // your PUBLIC KEY
+      }
+    })();
+  </script>
 </head>
 
 <body class="home-page">
@@ -94,8 +105,7 @@
           <a class="card-link" href="project.html?project=braininjar">
             <article class="card glass" data-tags="scifi props">
               <div class="card-thumb">
-                <img
-                  src="/media/images/Environment-1/ShauryaGajawat_FianlProject_Spacecraft_Blocking.0306.png"
+                <img src="/media/images/Environment-1/ShauryaGajawat_FianlProject_Spacecraft_Blocking.0306.png"
                   alt="Brain in jar environment" />
               </div>
               <div class="card-body">
@@ -114,9 +124,7 @@
           <a class="card-link" href="project.html?project=bag">
             <article class="card glass" data-tags="props hard-surface">
               <div class="card-thumb">
-                <img
-                  src="media/images/Class Room 06/classroom render 3.png"
-                  alt="Backpack hero prop" />
+                <img src="media/images/Class Room 06/classroom render 3.png" alt="Backpack hero prop" />
               </div>
               <div class="card-body">
                 <h3>Just a Bag!</h3>
@@ -487,7 +495,7 @@
           <!-- PROFILE PHOTO TILE (no black tile, only white area + black border on image) -->
           <div class="split-block about-photo-block">
             <div class="about-photo-frame">
-              <img src="media/images/profile-photo.png" alt="Portrait of Aditya Singh">
+              <img src="media/images/profile-photo.png" alt="Portrait of Shaurya Singh Gajawat">
             </div>
           </div>
 
@@ -549,7 +557,7 @@
                 <img src="media/icons/mari.png" alt="Mari logo">
               </div>
               <div class="tool-icon-large">
-                <img src="media/icons/worldmachine.png" alt="Mari logo">
+                <img src="media/icons/worldmachine.png" alt="World Machine logo">
               </div>
             </div>
           </div>
@@ -626,25 +634,28 @@
         <form id="contact-form" class="contact-form">
           <div class="contact-field">
             <label class="contact-label" for="message">Message</label>
+            <!-- name="message" is used by EmailJS template -->
             <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
           </div>
 
           <div class="contact-row">
             <div class="contact-field">
               <label class="contact-label" for="name">Your name</label>
-              <input id="name" name="name" type="text" placeholder="Name" required />
+              <!-- from_name is a common EmailJS variable -->
+              <input id="name" name="from_name" type="text" placeholder="Name" required />
             </div>
 
             <div class="contact-field">
               <label class="contact-label" for="email">Email</label>
-              <input id="email" name="email" type="email" placeholder="Email" required />
+              <!-- reply_to is used so you can hit reply in your inbox -->
+              <input id="email" name="reply_to" type="email" placeholder="Email" required />
             </div>
           </div>
 
-          <button type="submit" class="contact-submit">Send message</button>
+          <button type="submit" class="contact-submit" id="contact-submit">Send message</button>
 
-          <p class="contact-note">
-            This will open your email app with a pre-filled message to send to me.
+          <p id="contact-status" class="contact-note" aria-live="polite">
+            Your message will be sent directly to my inbox. No email app will open.
           </p>
         </form>
       </section>
@@ -656,6 +667,7 @@
     </footer>
   </div>
 
+  <!-- Main script -->
   <script src="script.js"></script>
 </body>
 
