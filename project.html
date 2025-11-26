@@ -41,7 +41,7 @@
         </header>
 
         <div class="project-layout">
-          <!-- LEFT: ArtStation-style framed media wall -->
+          <!-- LEFT: Framed media wall with its own scroll -->
           <div class="project-media-column">
             <div class="project-media-outer">
               <div class="project-media-inner">
@@ -76,6 +76,11 @@
               <div id="project-tags" class="project-tag-list"></div>
             </div>
 
+            <!-- NEW: Software & Tools icons box -->
+            <div class="project-tools glass" id="project-tools">
+              <!-- JS fills tools grid -->
+            </div>
+
             <div class="project-description glass" id="project-description">
               <!-- JS fills description -->
             </div>
@@ -98,8 +103,15 @@
   <div id="lightbox" class="lightbox" aria-hidden="true">
     <button class="lightbox-close" aria-label="Close media viewer">×</button>
     <div class="lightbox-inner">
-      <img id="lightbox-img" alt="" />
-      <video id="lightbox-video" controls playsinline></video>
+      <div class="lightbox-toolbar">
+        <button type="button" class="lightbox-zoom-btn" data-zoom="out" aria-label="Zoom out">−</button>
+        <button type="button" class="lightbox-zoom-btn" data-zoom="in" aria-label="Zoom in">+</button>
+        <button type="button" class="lightbox-zoom-btn" data-zoom="reset" aria-label="Reset zoom">100%</button>
+      </div>
+      <div class="lightbox-media-wrapper">
+        <img id="lightbox-img" alt="" />
+        <video id="lightbox-video" controls playsinline></video>
+      </div>
     </div>
   </div>
 

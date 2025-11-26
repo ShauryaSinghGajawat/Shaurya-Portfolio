@@ -15,22 +15,22 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Hammer Best/shaurya-singh-gajawat-learning-environment-artist-hammer-render-01.jpg",
-        alt: "Main view of modular sci-fi corridor"
+        alt: "Main view of modular sci-fi corridor",
       },
       {
         type: "image",
         src: "media/images/Hammer Best/shaurya-singh-gajawat-learning-environment-artist-hammer-render-02.jpg",
-        alt: "Detail shot of corridor trims and materials"
+        alt: "Detail shot of corridor trims and materials",
       },
       {
         type: "image",
         src: "media/images/Hammer Best/shaurya-singh-gajawat-learning-environment-artist-hammer-render-03.jpg",
-        alt: "Gameplay camera view down the corridor"
-      }
+        alt: "Gameplay camera view down the corridor",
+      },
     ],
     description: [
       "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life."
+      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -38,9 +38,9 @@ const PROJECTS = [
         "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
         "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
         "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable."
-      ]
-    }
+        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
   },
   {
     slug: "sea",
@@ -52,15 +52,21 @@ const PROJECTS = [
     year: "2025",
     tags: ["Nature", "Atmosphere", "Storytelling"],
     media: [
+      // NEW: video at the very start
+      {
+        type: "video",
+        src: "media/images/Ocean Best/final ocean animation.mp4",
+        alt: "Cinematic flythrough of the sea environment",
+      },
       {
         type: "image",
         src: "media/images/Ocean Best/shaurya-singh-gajawat-learning-environment-artist-fine-thumnails.jpg",
-        alt: "Wide shot of ruined temple in the forest"
-      }
+        alt: "Wide shot of ruined temple in the forest",
+      },
     ],
     description: [
       "An environment focused on atmosphere and depth, exploring how foliage density and fog shape the mood.",
-      "The ruins are designed around a clear composition with a strong focal point and leading lines for the player."
+      "The ruins are designed around a clear composition with a strong focal point and leading lines for the player.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -68,9 +74,9 @@ const PROJECTS = [
         "Blocked in terrain and major shapes to lock composition early.",
         "Layered foliage from large to small to avoid noisy reads.",
         "Used height fog and light shafts to separate foreground, midground and background.",
-        "Added storytelling props like broken statues and offerings to suggest a forgotten history."
-      ]
-    }
+        "Added storytelling props like broken statues and offerings to suggest a forgotten history.",
+      ],
+    },
   },
   {
     slug: "hippo",
@@ -85,12 +91,12 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/08 Teddy/Teddy.jpg",
-        alt: "Wide shot of neon alley environment"
-      }
+        alt: "Wide shot of neon alley environment",
+      },
     ],
     description: [
       "Stylized alleyway environment exploring value contrast, emissive materials and storytelling through props.",
-      "Built with gameplay readability in mind so the player can quickly understand paths and interactable elements."
+      "Built with gameplay readability in mind so the player can quickly understand paths and interactable elements.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -98,9 +104,9 @@ const PROJECTS = [
         "Defined a limited value palette with strong light/dark contrast.",
         "Used decals for grime, graffiti and leaks to add storytelling without extra geometry.",
         "Balanced emissive values to keep important areas readable without overexposing.",
-        "Added animated VFX like steam and flickering lights to keep the scene alive."
-      ]
-    }
+        "Added animated VFX like steam and flickering lights to keep the scene alive.",
+      ],
+    },
   },
   {
     slug: "clifftop-shrine",
@@ -115,17 +121,17 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Concept - Light Shrine/2Final.jpg",
-        alt: "Wide shot of clifftop shrine"
+        alt: "Wide shot of clifftop shrine",
       },
       {
         type: "image",
         src: "media/images/Concept - Light Shrine/Perpsective.jpg",
-        alt: "Close-up of hand-painted shrine details"
-      }
+        alt: "Close-up of hand-painted shrine details",
+      },
     ],
     description: [
       "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
-      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player."
+      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -133,9 +139,9 @@ const PROJECTS = [
         "Started with strong blockout shapes to ensure a readable silhouette.",
         "Painted diffuse-only textures with baked lighting details for a painterly look.",
         "Used variation in ground values to guide the player toward the shrine.",
-        "Kept geometry simple and let the texture work carry most of the detail."
-      ]
-    }
+        "Kept geometry simple and let the texture work carry most of the detail.",
+      ],
+    },
   },
   {
     slug: "arcane-cube",
@@ -150,27 +156,27 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Cube Arcaned Best/shaurya-singh-gajawat-learning-environment-artist-thumbnail.jpg",
-        alt: "Thumbnail view of sci-fi lab"
+        alt: "Thumbnail view of sci-fi lab",
       },
       {
         type: "image",
         src: "media/images/Cube Arcaned Best/shaurya-singh-gajawat-learning-environment-artist-02-02.jpg",
-        alt: "Overview of sci-fi research lab interior"
+        alt: "Overview of sci-fi research lab interior",
       },
       {
         type: "image",
         src: "media/images/Cube Arcaned Best/shaurya-singh-gajawat-learning-environment-artist-03-03.jpg",
-        alt: "Close-up of consoles and lab props"
+        alt: "Close-up of consoles and lab props",
       },
       {
         type: "image",
         src: "media/images/Cube Arcaned Best/shaurya-singh-gajawat-learning-environment-artist-shaded-0606.jpg",
-        alt: "Lighting setup in the lab interior"
-      }
+        alt: "Lighting setup in the lab interior",
+      },
     ],
     description: [
       "A clean sci-fi lab interior with a focus on hard-surface modeling and material variation.",
-      "The layout is arranged around key gameplay spaces like consoles and interactive lab equipment."
+      "The layout is arranged around key gameplay spaces like consoles and interactive lab equipment.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -178,9 +184,9 @@ const PROJECTS = [
         "Modeled modular wall and floor pieces to quickly build the lab layout.",
         "Created multiple material variants for metals, plastics and glass.",
         "Used lighting and emissives to highlight important gameplay areas.",
-        "Added small props and decals to break repetition and add scale."
-      ]
-    }
+        "Added small props and decals to break repetition and add scale.",
+      ],
+    },
   },
   {
     slug: "mountain-village",
@@ -195,32 +201,32 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Hut Stylized bEST/shaurya-singh-gajawat-learning-environment-artist-thumbnail-02.jpg",
-        alt: "Overview of mountain village"
+        alt: "Overview of mountain village",
       },
       {
         type: "image",
         src: "media/images/Hut Stylized bEST/shaurya-singh-gajawat-learning-environment-artist-05.jpg",
-        alt: "Close shot of village props and houses"
+        alt: "Close shot of village props and houses",
       },
       {
         type: "image",
         src: "media/images/Hut Stylized bEST/shaurya-singh-gajawat-learning-environment-artist-back.jpg",
-        alt: "Village seen from the back"
+        alt: "Village seen from the back",
       },
       {
         type: "image",
         src: "media/images/Hut Stylized bEST/shaurya-singh-gajawat-learning-environment-artist-front-render.jpg",
-        alt: "Front view of the main house cluster"
+        alt: "Front view of the main house cluster",
       },
       {
         type: "image",
         src: "media/images/Hut Stylized bEST/shaurya-singh-gajawat-learning-environment-artist-right-render.jpg",
-        alt: "Side angle showing village depth"
-      }
+        alt: "Side angle showing village depth",
+      },
     ],
     description: [
       "A small village environment focusing on storytelling with props and wear.",
-      "Each house has props that hint at the inhabitants, making the world feel lived-in."
+      "Each house has props that hint at the inhabitants, making the world feel lived-in.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -228,9 +234,9 @@ const PROJECTS = [
         "Planned the village layout around a main path leading to the highest point.",
         "Added storytelling clusters like workbenches, laundry and crates.",
         "Used different levels of wear on props to hint at history and use.",
-        "Tweaked lighting and sky values to support a warm, inviting mood."
-      ]
-    }
+        "Tweaked lighting and sky values to support a warm, inviting mood.",
+      ],
+    },
   },
   {
     slug: "skull",
@@ -245,32 +251,32 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Citha Skull Best/shaurya-singh-gajawat-learning-environment-artist-rgfgfdgf.jpg",
-        alt: "Hero view of cheetah skull"
+        alt: "Hero view of cheetah skull",
       },
       {
         type: "image",
         src: "media/images/Citha Skull Best/shaurya-singh-gajawat-learning-environment-artist-fdfdsfdsf.jpg",
-        alt: "Close-up of skull detailing"
+        alt: "Close-up of skull detailing",
       },
       {
         type: "image",
         src: "media/images/Citha Skull Best/shaurya-singh-gajawat-learning-environment-artist-rfghfghg.jpg",
-        alt: "Side view of cheetah skull"
+        alt: "Side view of cheetah skull",
       },
       {
         type: "image",
         src: "media/images/Citha Skull Best/shaurya-singh-gajawat-learning-environment-artist-fdasadasf.jpg",
-        alt: "Three-quarter view of skull on stand"
+        alt: "Three-quarter view of skull on stand",
       },
       {
         type: "image",
         src: "media/images/Citha Skull Best/shaurya-singh-gajawat-learning-environment-artist-uyuyu.jpg",
-        alt: "Back view and occlusion of cheetah skull"
-      }
+        alt: "Back view and occlusion of cheetah skull",
+      },
     ],
     description: [
       "A hero prop study of a cheetah skull, focusing on anatomy and material breakup.",
-      "Used roughness variation and subtle color changes to suggest age and wear."
+      "Used roughness variation and subtle color changes to suggest age and wear.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -278,9 +284,9 @@ const PROJECTS = [
         "Started from a low-poly sculpt to lock proportions quickly.",
         "Refined details with sculpting passes focusing on cracks and cavities.",
         "Textured with layered dirt and discoloration maps.",
-        "Rendered with simple lighting to clearly show form."
-      ]
-    }
+        "Rendered with simple lighting to clearly show form.",
+      ],
+    },
   },
   {
     slug: "crate",
@@ -295,17 +301,17 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Crate Best 0/shaurya-singh-gajawat-learning-environment-artist-001-1.jpg",
-        alt: "Hero render of sci-fi crate"
+        alt: "Hero render of sci-fi crate",
       },
       {
         type: "image",
         src: "media/images/Crate Best 0/shaurya-singh-gajawat-learning-environment-artist-untitled-2-3.jpg",
-        alt: "Alternative angle of sci-fi crate"
-      }
+        alt: "Alternative angle of sci-fi crate",
+      },
     ],
     description: [
       "A game-ready sci-fi crate designed to work as a modular prop in multiple environments.",
-      "Emphasis on clear silhouettes and believable surface wear."
+      "Emphasis on clear silhouettes and believable surface wear.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -313,9 +319,9 @@ const PROJECTS = [
         "Built a low-poly and high-poly pair for clean bakes.",
         "Used anchor points in Painter for layered edge wear.",
         "Kept color accents minimal to maintain readability.",
-        "Rendered at multiple focal lengths to test in engine."
-      ]
-    }
+        "Rendered at multiple focal lengths to test in engine.",
+      ],
+    },
   },
   {
     slug: "knife",
@@ -330,22 +336,22 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Knive Best 03/shaurya-singh-gajawat-environment-props-inkedrender-006.jpg",
-        alt: "Hero render of knife prop"
+        alt: "Hero render of knife prop",
       },
       {
         type: "image",
         src: "media/images/Knive Best 03/shaurya-singh-gajawat-environment-props-inkedrender-004.jpg",
-        alt: "Close-up on knife handle and grip"
+        alt: "Close-up on knife handle and grip",
       },
       {
         type: "image",
         src: "media/images/Knive Best 03/shaurya-singh-gajawat-environment-props-desktop-screenshot-2024-04-26-13-31-36-39.jpg",
-        alt: "Knife seen in-engine with lighting"
-      }
+        alt: "Knife seen in-engine with lighting",
+      },
     ],
     description: [
       "A knife designed as a character prop with heavy use and surface story.",
-      "The materials focus on contrast between metal, rubber and leather."
+      "The materials focus on contrast between metal, rubber and leather.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -353,9 +359,9 @@ const PROJECTS = [
         "Gathered reference from outdoor survival knives.",
         "Sculpted subtle dents and bends instead of perfect shapes.",
         "Textured with layered edge damage and fingerprints.",
-        "Tested in a simple lighting scenario to balance roughness."
-      ]
-    }
+        "Tested in a simple lighting scenario to balance roughness.",
+      ],
+    },
   },
   {
     slug: "medieval-home",
@@ -370,37 +376,37 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-28.jpg",
-        alt: "Front view of medieval home"
+        alt: "Front view of medieval home",
       },
       {
         type: "image",
         src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-29 (2).jpg",
-        alt: "Angle view of medieval home structure"
+        alt: "Angle view of medieval home structure",
       },
       {
         type: "image",
         src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-29.jpg",
-        alt: "Detail view of windows and beams"
+        alt: "Detail view of windows and beams",
       },
       {
         type: "image",
         src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-30.jpg",
-        alt: "Side view of medieval house layout"
+        alt: "Side view of medieval house layout",
       },
       {
         type: "image",
         src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-31.jpg",
-        alt: "Roof and chimney details"
+        alt: "Roof and chimney details",
       },
       {
         type: "image",
         src: "media/images/Medieval Incomplete House/photo_2023-03-26_14-33-17 (2).jpg",
-        alt: "Alternate angle of medieval home exterior"
-      }
+        alt: "Alternate angle of medieval home exterior",
+      },
     ],
     description: [
       "Blockout of a medieval house taken through several detail passes.",
-      "Focus on modular pieces that can be reused for a full village."
+      "Focus on modular pieces that can be reused for a full village.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -408,9 +414,9 @@ const PROJECTS = [
         "Established proportions and silhouette with a quick blockout.",
         "Defined modular wall and roof pieces.",
         "Added beams, trims and windows to break up surfaces.",
-        "Planned further passes for materials and storytelling props."
-      ]
-    }
+        "Planned further passes for materials and storytelling props.",
+      ],
+    },
   },
   {
     slug: "locket",
@@ -425,22 +431,22 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Silver Locket/Render_001.png",
-        alt: "Hero render of silver locket"
+        alt: "Hero render of silver locket",
       },
       {
         type: "image",
         src: "media/images/Silver Locket/Render_002.png",
-        alt: "Locket open showing inner detail"
+        alt: "Locket open showing inner detail",
       },
       {
         type: "image",
         src: "media/images/Silver Locket/Render_003.png",
-        alt: "Multiple angles of locket prop"
-      }
+        alt: "Multiple angles of locket prop",
+      },
     ],
     description: [
       "A silver locket prop that explores reflections and subtle surface imperfections.",
-      "Designed as a potential narrative item for a character."
+      "Designed as a potential narrative item for a character.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -448,9 +454,9 @@ const PROJECTS = [
         "Modeled simple but clean geometry for smooth reflections.",
         "Textured with micro-scratches and smudges.",
         "Balanced metalness and roughness for believable silver.",
-        "Rendered with simple HDRI lighting to show material response."
-      ]
-    }
+        "Rendered with simple HDRI lighting to show material response.",
+      ],
+    },
   },
   {
     slug: "telephone",
@@ -465,42 +471,42 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Telephone Best/shaurya-singh-gajawat-learning-environment-artist-thumbnail.jpg",
-        alt: "Hero render of vintage telephone"
+        alt: "Hero render of vintage telephone",
       },
       {
         type: "image",
         src: "media/images/Telephone Best/shaurya-singh-gajawat-learning-environment-artist-render-top-top-05.jpg",
-        alt: "Top view of the vintage telephone"
+        alt: "Top view of the vintage telephone",
       },
       {
         type: "image",
         src: "media/images/Telephone Best/shaurya-singh-gajawat-learning-environment-artist-render-side-back-04.jpg",
-        alt: "Side and back view of the telephone"
+        alt: "Side and back view of the telephone",
       },
       {
         type: "image",
         src: "media/images/Telephone Best/shaurya-singh-gajawat-learning-environment-artist-render-front-front-06.jpg",
-        alt: "Front close-up of dial and details"
+        alt: "Front close-up of dial and details",
       },
       {
         type: "image",
         src: "media/images/Telephone Best/shaurya-singh-gajawat-learning-environment-artist-render-back-02.jpg",
-        alt: "Back view of the telephone prop"
+        alt: "Back view of the telephone prop",
       },
       {
         type: "image",
         src: "media/images/Telephone Best/shaurya-singh-gajawat-learning-environment-artist-render-07-side-close.jpg",
-        alt: "Side close-up of handset and base"
+        alt: "Side close-up of handset and base",
       },
       {
         type: "image",
-        src: "media/images/Telephone Best/shaurya-singg-gajawat-learning-environment-artist-rende4r-top-front.jpg",
-        alt: "Angled view showing top and front"
-      }
+        src: "media/images/Telephone Best/shaurya-singh-gajawat-learning-environment-artist-rende4r-top-front.jpg",
+        alt: "Angled view showing top and front",
+      },
     ],
     description: [
       "A vintage telephone prop with emphasis on layered surfaces and storytelling wear.",
-      "Designed to sit as a focal prop in an interior scene."
+      "Designed to sit as a focal prop in an interior scene.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -508,9 +514,9 @@ const PROJECTS = [
         "Gathered references from antique telephones.",
         "Balanced gloss and roughness between metal and plastic parts.",
         "Added dust and edge wear to suggest age.",
-        "Rendered from multiple angles to show all details."
-      ]
-    }
+        "Rendered from multiple angles to show all details.",
+      ],
+    },
   },
   {
     slug: "tiles",
@@ -525,42 +531,42 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Tiles Textures/shaurya-singh-gajawat-learning-environment-artist-old-yellow-wholsome (1).jpg",
-        alt: "Old yellow tiles with water damage"
+        alt: "Old yellow tiles with water damage",
       },
       {
         type: "image",
         src: "media/images/Tiles Textures/shaurya-singh-gajawat-learning-environment-artist-grey-wolseome (1).jpg",
-        alt: "Grey tile material variation"
+        alt: "Grey tile material variation",
       },
       {
         type: "image",
         src: "media/images/Tiles Textures/shaurya-singh-gajawat-learning-environment-artist-dirted-old-brown-tie-wholse (1).jpg",
-        alt: "Brown tiles with heavy dirt and wear"
+        alt: "Brown tiles with heavy dirt and wear",
       },
       {
         type: "image",
         src: "media/images/Tiles Textures/shaurya-singh-gajawat-learning-environment-artist-old-dirted-extremely-water-color-tiles-main-camera.jpg",
-        alt: "Extreme water-damaged tile material"
+        alt: "Extreme water-damaged tile material",
       },
       {
         type: "image",
         src: "media/images/Tiles Textures/shaurya-singh-gajawat-learning-environment-artist-old-rough-grey-water-color-tiles-main-camera.jpg",
-        alt: "Rough grey tiles with water staining"
+        alt: "Rough grey tiles with water staining",
       },
       {
         type: "image",
         src: "media/images/Tiles Textures/shaurya-singh-gajawat-learning-environment-artist-qqqfootpath-skin-tile-water.jpg",
-        alt: "Footpath-style tile variation"
+        alt: "Footpath-style tile variation",
       },
       {
         type: "image",
         src: "media/images/Tiles Textures/shaurya-singh-gajawat-learning-environment-artist-qqqold-dirted-extreme-water-color-tiles-main-camera.jpg",
-        alt: "Another extreme water-damaged tile variant"
-      }
+        alt: "Another extreme water-damaged tile variant",
+      },
     ],
     description: [
       "A series of tile materials focusing on water damage, roughness variation and color shifts.",
-      "Built to work both as hero surfaces and background materials."
+      "Built to work both as hero surfaces and background materials.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -568,9 +574,9 @@ const PROJECTS = [
         "Started from a base tile height and pattern in Designer.",
         "Layered multiple grunge and leak masks.",
         "Pushed roughness variation for better light response.",
-        "Exported to Painter and Unreal for final lookdev."
-      ]
-    }
+        "Exported to Painter and Unreal for final lookdev.",
+      ],
+    },
   },
   {
     slug: "carriage",
@@ -585,32 +591,32 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Wooden Carriage Best/shaurya-singh-gajawat-learning-environment-artist-render-0003.jpg",
-        alt: "Hero render of wooden carriage"
+        alt: "Hero render of wooden carriage",
       },
       {
         type: "image",
         src: "media/images/Wooden Carriage Best/shaurya-singh-gajawat-learning-environment-artist-render-0002.jpg",
-        alt: "Three-quarter view of carriage"
+        alt: "Three-quarter view of carriage",
       },
       {
         type: "image",
         src: "media/images/Wooden Carriage Best/shaurya-singh-gajawat-learning-environment-artist-render-0001.jpg",
-        alt: "Front view highlighting structure"
+        alt: "Front view highlighting structure",
       },
       {
         type: "image",
         src: "media/images/Wooden Carriage Best/shaurya-singh-gajawat-learning-environment-artist-inkedrender-004.jpg",
-        alt: "Detail view of wheel and suspension"
+        alt: "Detail view of wheel and suspension",
       },
       {
         type: "image",
         src: "media/images/Wooden Carriage Best/shaurya-singh-gajawat-learning-environment-artist-inkedrender-003.jpg",
-        alt: "Close shot of carriage materials and wear"
-      }
+        alt: "Close shot of carriage materials and wear",
+      },
     ],
     description: [
       "A wooden carriage prop focusing on structural believability and surface storytelling.",
-      "Designed to be reused in multiple medieval or fantasy scenes."
+      "Designed to be reused in multiple medieval or fantasy scenes.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -618,9 +624,9 @@ const PROJECTS = [
         "Built a clean low-poly cage for the carriage.",
         "Added supporting beams and joints for believability.",
         "Textured with layered dirt, mud and chipped paint.",
-        "Rendered from multiple angles to show construction."
-      ]
-    }
+        "Rendered from multiple angles to show construction.",
+      ],
+    },
   },
   {
     slug: "braininjar",
@@ -636,22 +642,22 @@ const PROJECTS = [
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/089/787/478/4k/shaurya-singh-gajawat-learning-environment-artist-002-no-rays-render.jpg?1751960892",
-        alt: "Hero shot of brain-in-jar environment"
+        alt: "Hero shot of brain-in-jar environment",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/089/834/530/4k/shaurya-singh-gajawat-learning-environment-artist-484823524-17849365239426418-6424053854920204834-n.jpg?1752075839",
-        alt: "Alternate angle of brain jar scene"
+        alt: "Alternate angle of brain jar scene",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/089/834/630/4k/shaurya-singh-gajawat-learning-environment-artist-482714530-17846578269426418-7002585884920958835-n.jpg?1752075995",
-        alt: "Close-up of jar and supporting props"
-      }
+        alt: "Close-up of jar and supporting props",
+      },
     ],
     description: [
       "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life."
+      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -659,9 +665,9 @@ const PROJECTS = [
         "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
         "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
         "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable."
-      ]
-    }
+        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
   },
   {
     slug: "bag",
@@ -677,82 +683,82 @@ const PROJECTS = [
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/089/273/092/4k/shaurya-singh-gajawat-learning-environment-artist-color.jpg?1750515281",
-        alt: "Hero render of backpack prop"
+        alt: "Hero render of backpack prop",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/089/273/379/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-shaded-005.jpg?1750515413",
-        alt: "Back view of backpack with straps"
+        alt: "Back view of backpack with straps",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/089/273/383/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-shaded-004.jpg?1750515418",
-        alt: "Angle shot emphasizing form and silhouette"
+        alt: "Angle shot emphasizing form and silhouette",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/089/273/398/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-shaded-003.jpg?1750515443",
-        alt: "Side view of backpack with pockets"
+        alt: "Side view of backpack with pockets",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/089/273/491/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-47-50.jpg?1750515621",
-        alt: "Backpack in-engine lighting test 1"
+        alt: "Backpack in-engine lighting test 1",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/089/273/486/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-41-49.jpg?1750515611",
-        alt: "Backpack in-engine lighting test 2"
+        alt: "Backpack in-engine lighting test 2",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/089/273/490/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-46-56.jpg?1750515617",
-        alt: "Backpack in-engine lighting test 3"
+        alt: "Backpack in-engine lighting test 3",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/089/273/447/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-56-46.jpg?1750515547",
-        alt: "Backpack resting on ground, angled view"
+        alt: "Backpack resting on ground, angled view",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/089/273/495/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-49-01.jpg?1750515628",
-        alt: "Backpack close-up of decals and labels"
+        alt: "Backpack close-up of decals and labels",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/089/273/533/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-decals-closeups-001.jpg?1750515717",
-        alt: "Detail close-up of decals and surface details"
+        alt: "Detail close-up of decals and surface details",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/089/273/416/4k/shaurya-singh-gajawat-learning-environment-artist-02.jpg?1750515475",
-        alt: "Backpack presentation render 1"
+        alt: "Backpack presentation render 1",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/089/273/421/4k/shaurya-singh-gajawat-learning-environment-artist-01.jpg?1750515484",
-        alt: "Backpack presentation render 2"
+        alt: "Backpack presentation render 2",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/089/273/507/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-21-51.jpg?1750515650",
-        alt: "Backpack lighting exploration shot 1"
+        alt: "Backpack lighting exploration shot 1",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/089/273/510/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-22-51.jpg?1750515654",
-        alt: "Backpack lighting exploration shot 2"
+        alt: "Backpack lighting exploration shot 2",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/089/273/514/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-23-45.jpg?1750515659",
-        alt: "Backpack lighting exploration shot 3"
-      }
+        alt: "Backpack lighting exploration shot 3",
+      },
     ],
     description: [
       "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life."
+      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -760,9 +766,9 @@ const PROJECTS = [
         "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
         "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
         "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable."
-      ]
-    }
+        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
   },
   {
     slug: "grass",
@@ -778,17 +784,17 @@ const PROJECTS = [
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/076/670/797/4k/shaurya-singh-gajawat-learning-environment-artist-edite-prerender-003.jpg?1717515004",
-        alt: "Hero render of grass landscape"
+        alt: "Hero render of grass landscape",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/076/670/765/4k/shaurya-singh-gajawat-learning-environment-artist-disc-scale.jpg?1717514963",
-        alt: "Alternate angle of grass environment"
-      }
+        alt: "Alternate angle of grass environment",
+      },
     ],
     description: [
       "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life."
+      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
     ],
     breakdown: {
       title: "Breakdown",
@@ -796,14 +802,50 @@ const PROJECTS = [
         "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
         "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
         "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable."
-      ]
-    }
-  }
+        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
+  },
 ];
 
-// ================= SIDEBAR PROJECT ORDER =================
+// ================= TOOL ICON MAP FOR PROJECT SIDEBAR =================
+// NOTE: Replace these icon paths with your actual icon files.
+const TOOL_ICON_MAP = {
+  "Blender": {
+    label: "Blender",
+    src: "media/icons/blender.png",
+  },
+  "Substance 3D Painter": {
+    label: "Substance 3D Painter",
+    src: "media/icons/substance-painter.png",
+  },
+  "Substance 3D Designer": {
+    label: "Substance 3D Designer",
+    src: "media/icons/substance-designer.png",
+  },
+  "Designer": {
+    label: "Substance 3D Designer",
+    src: "media/icons/substance-designer.png",
+  },
+  "SpeedTree": {
+    label: "SpeedTree",
+    src: "media/icons/speedtree.png",
+  },
+  "Unreal Engine 5": {
+    label: "Unreal Engine 5",
+    src: "media/icons/unreal.png",
+  },
+  "Hand-Painted Texturing": {
+    label: "Hand-Painted",
+    src: "media/icons/handpainted.png",
+  },
+  Painter: {
+    label: "Substance 3D Painter",
+    src: "media/icons/substance-painter.png",
+  },
+};
 
+// ================= SIDEBAR PROJECT ORDER =================
 const SIDEBAR_PROJECT_ORDER = [
   "hammer",
   "knife",
@@ -813,11 +855,10 @@ const SIDEBAR_PROJECT_ORDER = [
   "mountain-village",
   "skull",
   "hippo",
-  "sea"
+  "sea",
 ];
 
 // ================= HERO SLIDER (HOME) =================
-
 const slides = document.querySelectorAll(".hero-slide");
 const dotsContainer = document.querySelector(".hero-dots");
 const heroTitle = document.querySelector(".hero-title");
@@ -845,22 +886,18 @@ const dots = document.querySelectorAll(".hero-dot");
 function updateHeroText(index) {
   const slide = slides[index];
   if (!slide || !heroTitle || !heroCaption) return;
-
   heroTitle.textContent = slide.dataset.title || "";
   heroCaption.textContent = slide.dataset.caption || "";
 }
 
 function showSlide(index) {
   if (!slides.length) return;
-
   slides.forEach((slide, i) => {
     slide.classList.toggle("active", i === index);
   });
-
   dots.forEach((dot, i) => {
     dot.classList.toggle("active", i === index);
   });
-
   updateHeroText(index);
   currentIndex = index;
 }
@@ -922,7 +959,6 @@ if (heroSliderElement) {
 }
 
 // ================= GALLERY FILTERING (HOME) =================
-
 const filterButtons = document.querySelectorAll(".filter-btn");
 // IMPORTANT: only old gallery cards participate in filtering
 const galleryCards = document.querySelectorAll("#gallery .gallery-grid .card");
@@ -930,7 +966,8 @@ const galleryCards = document.querySelectorAll("#gallery .gallery-grid .card");
 function filterGallery(filter) {
   galleryCards.forEach((card) => {
     const tags = (card.dataset.tags || "").toLowerCase();
-    const show = filter === "all" || tags.includes(filter.toLowerCase());
+    const show =
+      filter === "all" || tags.includes(filter.toLowerCase());
     const wrapper = card.closest(".card-link") || card;
     wrapper.style.display = show ? "" : "none";
   });
@@ -950,10 +987,7 @@ if (galleryCards.length) {
 }
 
 // ================= DIM EVERYTHING EXCEPT HOVERED CARD =================
-
 const pageBody = document.body;
-
-// dimming applies to all tiles using .card-link
 const cardWrappers = document.querySelectorAll(".card-link");
 
 cardWrappers.forEach((wrapper) => {
@@ -961,15 +995,13 @@ cardWrappers.forEach((wrapper) => {
     pageBody.classList.add("dim-mode");
     wrapper.classList.add("dim-focus");
   });
-
   wrapper.addEventListener("mouseleave", () => {
     pageBody.classList.remove("dim-mode");
     wrapper.classList.remove("dim-focus");
   });
 });
 
-// ================= PROJECT PAGE RENDERING (ARTSTATION STYLE) =================
-
+// ================= SIDEBAR: MORE PROJECTS =================
 function renderSidebarMoreProjects(currentSlug) {
   const container = document.getElementById("project-more-projects");
   if (!container) return;
@@ -1008,6 +1040,66 @@ function renderSidebarMoreProjects(currentSlug) {
   container.appendChild(grid);
 }
 
+// ================= SIDEBAR: SOFTWARE & TOOLS ICONS =================
+function renderProjectTools(project) {
+  const toolsContainer = document.getElementById("project-tools");
+  if (!toolsContainer) return;
+
+  toolsContainer.innerHTML = "";
+
+  const rawSoftware = project.software || "";
+  const softwareList = rawSoftware
+    .split("·")
+    .map((s) => s.trim())
+    .filter(Boolean);
+
+  if (!softwareList.length) {
+    toolsContainer.style.display = "none";
+    return;
+  }
+
+  toolsContainer.style.display = "block";
+
+  const heading = document.createElement("h3");
+  heading.textContent = "Software & Tools";
+  toolsContainer.appendChild(heading);
+
+  const grid = document.createElement("div");
+  grid.className = "tool-icon-grid";
+
+  softwareList.forEach((name) => {
+    const meta = TOOL_ICON_MAP[name] || {
+      label: name,
+      src: "media/icons/tool-placeholder.png",
+    };
+
+    const cell = document.createElement("div");
+    cell.className = "project-tool-item";
+
+    const iconWrapper = document.createElement("div");
+    iconWrapper.className = "tool-icon-large";
+    iconWrapper.setAttribute("title", meta.label || name);
+
+    const img = document.createElement("img");
+    img.src = meta.src;
+    img.alt = meta.label || name;
+
+    iconWrapper.appendChild(img);
+
+    const labelSpan = document.createElement("span");
+    labelSpan.className = "tool-icon-label";
+    labelSpan.textContent = meta.label || name;
+
+    cell.appendChild(iconWrapper);
+    cell.appendChild(labelSpan);
+
+    grid.appendChild(cell);
+  });
+
+  toolsContainer.appendChild(grid);
+}
+
+// ================= PROJECT PAGE RENDERING (ARTSTATION STYLE) =================
 function renderProjectPage() {
   const projectRoot = document.getElementById("project-root");
   if (!projectRoot) return; // not on project page
@@ -1102,7 +1194,6 @@ function renderProjectPage() {
         mediaItem.caption ||
         mediaItem.alt ||
         `${project.title} — view ${index + 1}`;
-
       frame.dataset.alt = captionText;
       frame.setAttribute("aria-label", `View ${captionText} larger`);
 
@@ -1133,34 +1224,74 @@ function renderProjectPage() {
     });
   }
 
+  // render side boxes
+  renderProjectTools(project);
   renderSidebarMoreProjects(project.slug);
+
   setupLightbox();
 }
 
-// ================= LIGHTBOX LOGIC =================
-
+// ================= LIGHTBOX + ZOOM LOGIC =================
 function setupLightbox() {
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
   const lightboxVideo = document.getElementById("lightbox-video");
   const closeBtn = document.querySelector(".lightbox-close");
+  const zoomButtons = document.querySelectorAll(".lightbox-zoom-btn");
 
   if (!lightbox || !lightboxImg || !lightboxVideo || !closeBtn) return;
+
+  let currentZoom = 1;
+  let currentMediaType = "image";
+  const MIN_ZOOM = 0.5;
+  const MAX_ZOOM = 4;
+  const ZOOM_STEP = 0.25;
+
+  function applyZoom() {
+    if (currentMediaType !== "image") return;
+
+    const target = lightboxImg;
+    if (!target) return;
+
+    target.style.transform = `scale(${currentZoom})`;
+  }
+
+  function resetZoom() {
+    currentZoom = 1;
+    if (lightboxImg) {
+      lightboxImg.style.transform = "scale(1)";
+    }
+  }
 
   function openLightbox(type, src, altText) {
     if (!src) return;
 
-    if (type === "video") {
+    currentMediaType = type || "image";
+    resetZoom();
+
+    if (currentMediaType === "video") {
+      lightbox.classList.add("lightbox-video-mode");
       lightboxImg.style.display = "none";
+      lightboxImg.src = "";
+      lightboxImg.alt = "";
+
       lightboxVideo.style.display = "block";
       lightboxVideo.src = src;
-      lightboxVideo.play().catch(() => {});
+      lightboxVideo
+        .play()
+        .catch(() => {
+          /* ignore */
+        });
     } else {
+      lightbox.classList.remove("lightbox-video-mode");
       lightboxVideo.pause();
       lightboxVideo.style.display = "none";
+      lightboxVideo.src = "";
+
       lightboxImg.style.display = "block";
       lightboxImg.src = src;
       lightboxImg.alt = altText || "";
+      applyZoom();
     }
 
     lightbox.classList.add("open");
@@ -1172,7 +1303,33 @@ function setupLightbox() {
     lightbox.setAttribute("aria-hidden", "true");
     lightboxVideo.pause();
     lightboxVideo.src = "";
+    lightboxImg.src = "";
+    resetZoom();
   }
+
+  // Zoom button interactions
+  zoomButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (currentMediaType !== "image") return;
+
+      const action = btn.dataset.zoom;
+      if (action === "in") {
+        currentZoom = Math.min(MAX_ZOOM, currentZoom + ZOOM_STEP);
+      } else if (action === "out") {
+        currentZoom = Math.max(MIN_ZOOM, currentZoom - ZOOM_STEP);
+      } else if (action === "reset") {
+        currentZoom = 1;
+      }
+      applyZoom();
+    });
+  });
+
+  // Double-click on image to toggle zoom 1x <-> 2x
+  lightboxImg.addEventListener("dblclick", () => {
+    if (currentMediaType !== "image") return;
+    currentZoom = currentZoom === 1 ? 2 : 1;
+    applyZoom();
+  });
 
   const frames = document.querySelectorAll(".project-media-frame");
   frames.forEach((frame) => {
@@ -1202,7 +1359,6 @@ function setupLightbox() {
 renderProjectPage();
 
 // ================= SKILLS TAB LOGIC =================
-
 const skillTabs = document.querySelectorAll(".skill-tab");
 const skillContents = document.querySelectorAll(".skill-content");
 
@@ -1217,21 +1373,19 @@ skillTabs.forEach((tab) => {
     skillContents.forEach((content) => {
       content.classList.toggle(
         "active",
-        content.dataset.skillContent === target
+        content.dataset.skillContent === target,
       );
     });
   });
 });
 
 // ================= FOOTER YEAR =================
-
 const yearSpan = document.getElementById("year");
 if (yearSpan) {
   yearSpan.textContent = new Date().getFullYear();
 }
 
 // ================= CONTACT FORM (EMAILJS) =================
-
 const contactForm = document.getElementById("contact-form");
 const contactStatus = document.getElementById("contact-status");
 const contactSubmit = document.getElementById("contact-submit");
@@ -1245,7 +1399,9 @@ if (contactForm) {
         contactStatus.textContent =
           "Contact service is unavailable right now. Please try again later.";
       }
-      console.warn("EmailJS SDK not loaded – check the script tag in index.html.");
+      console.warn(
+        "EmailJS SDK not loaded – check the script tag in index.html.",
+      );
       return;
     }
 
@@ -1256,16 +1412,16 @@ if (contactForm) {
       contactSubmit.disabled = true;
     }
 
-    // Send form via EmailJS using your real IDs
     emailjs
       .sendForm(
-        "service_58hij15",    // your SERVICE ID
-        "template_3k60zer",   // your TEMPLATE ID
-        contactForm
+        "service_58hij15", // your SERVICE ID
+        "template_3k60zer", // your TEMPLATE ID
+        contactForm,
       )
       .then(() => {
         if (contactStatus) {
-          contactStatus.textContent = "Message sent! I'll get back to you soon.";
+          contactStatus.textContent =
+            "Message sent! I'll get back to you soon.";
         }
         contactForm.reset();
         if (contactSubmit) {
