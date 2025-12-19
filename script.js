@@ -686,6 +686,11 @@ const PROJECTS = [
         alt: "Hero render of backpack prop",
       },
       {
+        type: "video",
+        src: "https://cdn.artstation.com/p/video_sources/002/685/752/00002.mp4?autoplay=1&mute=1&loop=1",
+        caption: "Bag Video"
+      },
+      {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/089/273/379/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-shaded-005.jpg?1750515413",
         alt: "Back view of backpack with straps",
@@ -1196,13 +1201,34 @@ function renderProjectPage() {
         `${project.title} — view ${index + 1}`;
       frame.dataset.alt = captionText;
       frame.setAttribute("aria-label", `View ${captionText} larger`);
-
       let mediaEl;
+
       if (mediaItem.type === "video") {
         mediaEl = document.createElement("video");
         mediaEl.src = mediaItem.src;
+
+        mediaEl.autoplay = true;   // ✅ ADD
+        mediaEl.muted = true;      // ✅ ADD (REQUIRED for autoplay)
+        mediaEl.loop = true;       // ✅ ADD (optional but recommended)
+
         mediaEl.controls = true;
         mediaEl.playsInline = true;
+        mediaEl.preload = "metadata";
+
+      } else if (mediaItem.type === "embed") {
+        mediaEl = document.createElement("iframe");
+        mediaEl.src = mediaItem.src;
+        mediaEl.loading = "lazy";
+        mediaEl.allowFullscreen = true;
+        mediaEl.referrerPolicy = "no-referrer";
+        mediaEl.style.width = "100%";
+        mediaEl.style.aspectRatio = "16 / 9";
+        mediaEl.style.border = "0";
+
+        // IMPORTANT: embeds should NOT open lightbox
+        frame.disabled = true;
+        frame.style.cursor = "default";
+
       } else {
         mediaEl = document.createElement("img");
         mediaEl.src = mediaItem.src;
@@ -1335,12 +1361,15 @@ function setupLightbox() {
   frames.forEach((frame) => {
     frame.addEventListener("click", () => {
       const type = frame.dataset.type || "image";
+
+      // ❌ Do nothing for embeds
+      if (type === "embed") return;
+
       const src = frame.dataset.src || "";
       const altText = frame.dataset.alt || "";
       openLightbox(type, src, altText);
     });
   });
-
   closeBtn.addEventListener("click", closeLightbox);
 
   lightbox.addEventListener("click", (e) => {
@@ -1440,3 +1469,130 @@ if (contactForm) {
       });
   });
 }
+
+// ================= GLOBAL BACKGROUND MUSIC =================
+window.addEventListener("DOMContentLoaded", () => {
+  const bgMusic = document.getElementById("bg-music");
+  const TIME_KEY = "bgm-time";
+  if (!bgMusic) return;
+
+  const MUSIC_KEY = "bgm-enabled";
+  const TARGET_VOLUME = 0.25;
+  bgMusic.volume = TARGET_VOLUME;
+
+  // ▶️ Restore saved playback time (if any)
+  const savedTime = sessionStorage.getItem(TIME_KEY);
+  if (savedTime) {
+    bgMusic.currentTime = parseFloat(savedTime);
+  }
+
+  // Always start muted (browser-safe)
+  bgMusic.muted = true;
+
+  const tryPlay = () => {
+    bgMusic.play().catch(() => {
+      setTimeout(() => {
+        bgMusic.play().catch(() => {});
+      }, 500);
+    });
+  };
+
+  // 🔹 Attempt autoplay on fresh load
+  setTimeout(tryPlay, 800);
+
+  // 🔓 Unlock sound on first user interaction
+  const unlock = () => {
+    bgMusic.muted = false;
+    localStorage.setItem(MUSIC_KEY, "true");
+    bgMusic.play().catch(() => {});
+    document.removeEventListener("pointerdown", unlock);
+  };
+  document.addEventListener("pointerdown", unlock);
+
+  // 🔁 Resume if previously enabled
+  if (localStorage.getItem(MUSIC_KEY) === "true") {
+    bgMusic.muted = false;
+    setTimeout(tryPlay, 300);
+  }
+
+  // 💾 Continuously save playback position
+  setInterval(() => {
+    if (!bgMusic.paused) {
+      sessionStorage.setItem(TIME_KEY, bgMusic.currentTime);
+    }
+  }, 500);
+
+  // ================= FADE HELPERS =================
+  const FADE_DURATION = 600;
+  let fadeInterval = null;
+
+  const fadeOutMusic = () => {
+    clearInterval(fadeInterval);
+    const step = bgMusic.volume / (FADE_DURATION / 50);
+
+    fadeInterval = setInterval(() => {
+      if (bgMusic.volume > step) {
+        bgMusic.volume -= step;
+      } else {
+        bgMusic.volume = 0;
+        bgMusic.pause();
+        clearInterval(fadeInterval);
+      }
+    }, 50);
+  };
+
+  const fadeInMusic = () => {
+    clearInterval(fadeInterval);
+    bgMusic.volume = 0;
+    bgMusic.play().catch(() => {});
+
+    const step = TARGET_VOLUME / (FADE_DURATION / 50);
+
+    fadeInterval = setInterval(() => {
+      if (bgMusic.volume < TARGET_VOLUME - step) {
+        bgMusic.volume += step;
+      } else {
+        bgMusic.volume = TARGET_VOLUME;
+        clearInterval(fadeInterval);
+      }
+    }, 50);
+  };
+
+  // ================= VIDEO AWARENESS =================
+  const videos = document.querySelectorAll("video");
+
+  videos.forEach((video) => {
+    video.addEventListener("play", () => {
+      if (!bgMusic.paused) fadeOutMusic();
+    });
+
+    video.addEventListener("pause", () => {
+      if (localStorage.getItem(MUSIC_KEY) === "true") {
+        fadeInMusic();
+      }
+    });
+
+    video.addEventListener("ended", () => {
+      if (localStorage.getItem(MUSIC_KEY) === "true") {
+        fadeInMusic();
+      }
+    });
+  });
+});
+
+// ================= BACK / FORWARD CACHE FIX =================
+window.addEventListener("pageshow", () => {
+  const bgMusic = document.getElementById("bg-music");
+  const TIME_KEY = "bgm-time";
+  if (!bgMusic) return;
+
+  const savedTime = sessionStorage.getItem(TIME_KEY);
+  if (savedTime) {
+    bgMusic.currentTime = parseFloat(savedTime);
+  }
+
+  if (localStorage.getItem("bgm-enabled") === "true") {
+    bgMusic.muted = false;
+    bgMusic.play().catch(() => {});
+  }
+});

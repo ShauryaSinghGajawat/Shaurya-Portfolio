@@ -11,6 +11,7 @@
 
 <body class="project-page">
   <div class="page">
+
     <!-- ================= HEADER ================= -->
     <header class="site-header glass">
       <div class="brand">
@@ -41,12 +42,13 @@
         </header>
 
         <div class="project-layout">
-          <!-- LEFT: Framed media wall with its own scroll -->
+
+          <!-- LEFT: Media column -->
           <div class="project-media-column">
             <div class="project-media-outer">
               <div class="project-media-inner">
                 <div id="project-media-stack" class="project-media-stack">
-                  <!-- JS injects stacked images / videos + captions -->
+                  <!-- JS injects images & videos here -->
                 </div>
               </div>
             </div>
@@ -56,57 +58,33 @@
           <aside class="project-sidebar">
             <div class="project-meta glass">
               <ul class="project-meta-list">
-                <li>
-                  <span>Role</span>
-                  <strong id="project-role"></strong>
-                </li>
-                <li>
-                  <span>Engine</span>
-                  <strong id="project-engine"></strong>
-                </li>
-                <li>
-                  <span>Software</span>
-                  <strong id="project-software"></strong>
-                </li>
-                <li>
-                  <span>Year</span>
-                  <strong id="project-year"></strong>
-                </li>
+                <li><span>Role</span><strong id="project-role"></strong></li>
+                <li><span>Engine</span><strong id="project-engine"></strong></li>
+                <li><span>Software</span><strong id="project-software"></strong></li>
+                <li><span>Year</span><strong id="project-year"></strong></li>
               </ul>
               <div id="project-tags" class="project-tag-list"></div>
             </div>
 
-            <!-- NEW: Software & Tools icons box -->
-            <div class="project-tools glass" id="project-tools">
-              <!-- JS fills tools grid -->
-            </div>
-
-            <div class="project-description glass" id="project-description">
-              <!-- JS fills description -->
-            </div>
-
-            <div class="project-breakdown glass" id="project-breakdown">
-              <!-- JS fills breakdown -->
-            </div>
-
-            <!-- more projects thumbs -->
-            <section class="project-more-projects glass" id="project-more-projects">
-              <!-- JS injects related project thumbs -->
-            </section>
+            <div class="project-tools glass" id="project-tools"></div>
+            <div class="project-description glass" id="project-description"></div>
+            <div class="project-breakdown glass" id="project-breakdown"></div>
+            <section class="project-more-projects glass" id="project-more-projects"></section>
           </aside>
+
         </div>
       </section>
     </main>
   </div>
 
-  <!-- ================= LIGHTBOX (FULLSCREEN VIEWER) ================= -->
+  <!-- ================= LIGHTBOX ================= -->
   <div id="lightbox" class="lightbox" aria-hidden="true">
     <button class="lightbox-close" aria-label="Close media viewer">×</button>
     <div class="lightbox-inner">
       <div class="lightbox-toolbar">
-        <button type="button" class="lightbox-zoom-btn" data-zoom="out" aria-label="Zoom out">−</button>
-        <button type="button" class="lightbox-zoom-btn" data-zoom="in" aria-label="Zoom in">+</button>
-        <button type="button" class="lightbox-zoom-btn" data-zoom="reset" aria-label="Reset zoom">100%</button>
+        <button class="lightbox-zoom-btn" data-zoom="out">−</button>
+        <button class="lightbox-zoom-btn" data-zoom="in">+</button>
+        <button class="lightbox-zoom-btn" data-zoom="reset">100%</button>
       </div>
       <div class="lightbox-media-wrapper">
         <img id="lightbox-img" alt="" />
@@ -116,6 +94,8 @@
   </div>
 
   <script src="script.js"></script>
+  <audio id="bg-music" preload="auto" loop muted>
+  <source src="media/sounds/site-bgm.mp3" type="audio/mpeg">
+</audio>
 </body>
-
 </html>

@@ -966,6 +966,11 @@ body.dim-mode::before {
 /* OUTER FRAME (full-width area of media column) */
 .project-media-column {
   position: relative;
+
+  /* NEW: force column to fill viewport height */
+  height: 105vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* dark outer frame */
@@ -973,10 +978,13 @@ body.dim-mode::before {
   background: #050505;
   padding: 1.4rem 0;
   margin-left: -1.2rem;
+
+  /* NEW: allow inner canvas to stretch */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-/* centered inner canvas holding ALL images/videos
-   and having its own vertical scrollbar on desktop */
 .project-media-inner {
   max-width: 1600px;
   margin: 0 auto;
@@ -984,11 +992,12 @@ body.dim-mode::before {
   padding: 1.4rem 1.6rem 1.8rem;
   border-radius: 0;
 
-  /* KEY: separate scroll for project images */
-  max-height: calc(100vh - 220px);
+  /* UPDATED: fill all available vertical space */
+  height: calc(110vh - 5rem);
   overflow-y: auto;
   overflow-x: hidden;
 }
+
 
 /* custom thin scrollbar for the media stack */
 .project-media-inner::-webkit-scrollbar {
