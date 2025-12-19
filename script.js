@@ -2,6 +2,300 @@
 
 const PROJECTS = [
   {
+    slug: "factory",
+    title: "Factory",
+    subtitle:
+      "Real-time corridor built for third-person gameplay in Unreal Engine.",
+    role: "Environment Artist",
+    engine: "Unreal Engine 5",
+    software: "Blender · Substance 3D Painter · Designer",
+    year: "2025",
+    tags: ["Sci-Fi", "Modular", "Lighting"],
+    media: [
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/699/559/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00017.webp?1766145927",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "video",
+        src: "https://cdn.artstation.com/p/video_sources/002/991/198/work-is-in-progress.mp4",
+        caption: "Bag Video"
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/699/672/4k/shaurya-singh-gajawat-learning-environment-art-week-08.webp?1766146204",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/699/698/4k/shaurya-singh-gajawat-learning-environment-art-week-07.webp?1766146232",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/699/660/4k/shaurya-singh-gajawat-learning-environment-art-week-03.webp?1766146184",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/699/654/4k/shaurya-singh-gajawat-learning-environment-art-week-02-1.webp?1766146179",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/699/685/4k/shaurya-singh-gajawat-learning-environment-art-week-06-1.webp?1766146215",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/699/664/4k/shaurya-singh-gajawat-learning-environment-art-week-04.webp?1766146197",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/699/568/4k/shaurya-singh-gajawat-learning-environment-art-week-05.webp?1766145939",
+        alt: "Main view of modular sci-fi corridor",
+      },
+    ],
+    description: [
+      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
+      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
+  },
+  {
+    slug: "spaceship",
+    title: "Spaceship",
+    subtitle:
+      "Real-time corridor built for third-person gameplay in Unreal Engine.",
+    role: "Environment Artist",
+    engine: "Unreal Engine 5",
+    software: "Blender · Substance 3D Painter · Designer",
+    year: "2025",
+    tags: ["Sci-Fi", "Modular", "Lighting"],
+    media: [
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/701/898/4k/shaurya-singh-gajawat-learning-environment-art-shauryagajawat-nowhere-remains.jpg?1766151781",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/701/877/4k/shaurya-singh-gajawat-learning-environment-art-shauryagajawat-final100-l06-compare.webp?1766151704",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/701/885/4k/shaurya-singh-gajawat-learning-environment-art-shauryagajawat-final100-l06-textured.webp?1766151730",
+        alt: "Main view of modular sci-fi corridor",
+      },
+    ],
+    description: [
+      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
+      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
+  },
+  {
+    slug: "classroom",
+    title: "Japanese Classroom",
+    subtitle:
+      "Real-time corridor built for third-person gameplay in Unreal Engine.",
+    role: "Environment Artist",
+    engine: "Unreal Engine 5",
+    software: "Blender · Substance 3D Painter · Designer",
+    year: "2025",
+    tags: ["Sci-Fi", "Modular", "Lighting"],
+    media: [
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/704/366/4k/shaurya-singh-gajawat-learning-environment-art-inkedclassroom-render-2.webp?1766156082",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/704/359/4k/shaurya-singh-gajawat-learning-environment-art-classroom-render-3.webp?1766156291",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/704/364/4k/shaurya-singh-gajawat-learning-environment-art-classroomk-1-1.webp?1766156080",
+        alt: "Main view of modular sci-fi corridor",
+      },
+    ],
+    description: [
+      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
+      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
+  },
+  {
+    slug: "headset",
+    title: "Headset",
+    subtitle:
+      "Real-time corridor built for third-person gameplay in Unreal Engine.",
+    role: "Environment Artist",
+    engine: "Unreal Engine 5",
+    software: "Blender · Substance 3D Painter · Designer",
+    year: "2025",
+    tags: ["Sci-Fi", "Modular", "Lighting"],
+    media: [
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/700/598/4k/shaurya-singh-gajawat-learning-environment-art-06-render.webp?1766148875",
+        alt: "Main view of modular sci-fi corridor",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/701/049/4k/shaurya-singh-gajawat-learning-environment-art-07-render.webp?1766150053",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/700/582/4k/shaurya-singh-gajawat-learning-environment-art-04-render.webp?1766148843",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/700/193/4k/shaurya-singh-gajawat-learning-environment-art-004-11zon.jpg?1766147713",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/700/186/4k/shaurya-singh-gajawat-learning-environment-art-003-11zon.webp?1766147671",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/700/218/4k/shaurya-singh-gajawat-learning-environment-art-005-11zon.webp?1766147747",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/700/216/4k/shaurya-singh-gajawat-learning-environment-art-006-11zon.webp?1766147740",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/700/380/4k/shaurya-singh-gajawat-learning-environment-art-002-simple-viewport-7-11zon.webp?1766148265",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/700/383/4k/shaurya-singh-gajawat-learning-environment-art-001-simple-8-11zon.webp?1766148271",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/700/388/4k/shaurya-singh-gajawat-learning-environment-art-007-1-11zon.webp?1766148284",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/700/392/4k/shaurya-singh-gajawat-learning-environment-art-008-2-11zon.webp?1766148291",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/700/400/4k/shaurya-singh-gajawat-learning-environment-art-0010-6-11zon.webp?1766148304",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/700/396/4k/shaurya-singh-gajawat-learning-environment-art-009-5-11zon.webp?1766148297",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/702/470/4k/shaurya-singh-gajawat-learning-environment-art-0012-11zon.webp?1766152892",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/702/474/4k/shaurya-singh-gajawat-learning-environment-art-0013-11zon.webp?1766152899",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/701/372/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-48-30.webp?1766150677",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/701/375/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-48-53-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150681",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/701/378/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-49-34-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150685",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/701/383/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-53-50.webp?1766150692",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/701/530/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-55-50-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150943",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/701/534/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-57-40-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150949",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/701/532/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-56-46-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150946",
+        alt: "Detail shot of corridor trims and materials",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/701/535/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-57-59-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150952",
+        alt: "Detail shot of corridor trims and materials",
+      },
+    ],
+    description: [
+      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
+      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
+  },
+  {
     slug: "hammer",
     title: "Hammer",
     subtitle:
@@ -156,6 +450,11 @@ const PROJECTS = [
       {
         type: "image",
         src: "media/images/Concept - Light Shrine/Perpsective.jpg",
+        alt: "Close-up of hand-painted shrine details",
+      },
+      {
+        type: "video",
+        src: "media/images/Concept - Light Shrine/latten fasted.mp4",
         alt: "Close-up of hand-painted shrine details",
       },
     ],
@@ -1222,6 +1521,229 @@ const PROJECTS = [
       ],
     },
   },
+  {
+    slug: "remote",
+    title: "A.C. Remote",
+    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
+    role: "Environment Artist",
+    engine: "Unreal Engine 5",
+    software: "Blender · Hand-Painted Texturing",
+    year: "2024",
+    tags: ["Stylized", "Hand-Painted", "Composition"],
+    media: [
+      {
+        type: "embed",
+        src: "https://sketchfab.com/models/1dfde889f2664a8a86b8634b908625fe/embed?ui_infos=0",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/model3ds/images/094/704/178/smaller_square/shaurya-singh-gajawat-learning-environment-art-d53daeab76e24c14ac80473b3f47f4de.jpg?1766155730",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      }
+    ],
+    description: [
+      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
+      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        "Started with strong blockout shapes to ensure a readable silhouette.",
+        "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        "Used variation in ground values to guide the player toward the shrine.",
+        "Kept geometry simple and let the texture work carry most of the detail.",
+      ],
+    },
+  },
+  {
+    slug: "bloodborne",
+    title: "Bloodborne",
+    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
+    role: "Environment Artist",
+    engine: "Unreal Engine 5",
+    software: "Blender · Hand-Painted Texturing",
+    year: "2024",
+    tags: ["Stylized", "Hand-Painted", "Composition"],
+    media: [
+      {
+        type: "embed",
+        src: "https://sketchfab.com/models/7f3290fb51a94d738a82e94c6bbe0293/embed?ui_infos=0",
+        caption: "PS4 Bloodborne Cover — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/285/916/4k/shaurya-singh-gajawat-learning-environment-artist-final-02.jpg?1724484652",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/079/285/985/4k/shaurya-singh-gajawat-learning-environment-artist-bb-uv-exported-min.jpg?1724484875",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+    ],
+    description: [
+      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
+      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        "Started with strong blockout shapes to ensure a readable silhouette.",
+        "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        "Used variation in ground values to guide the player toward the shrine.",
+        "Kept geometry simple and let the texture work carry most of the detail.",
+      ],
+    },
+  },
+  {
+    slug: "apple",
+    title: "Apple",
+    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
+    role: "Environment Artist",
+    engine: "Unreal Engine 5",
+    software: "Blender · Hand-Painted Texturing",
+    year: "2024",
+    tags: ["Stylized", "Hand-Painted", "Composition"],
+    media: [
+      {
+        type: "image",
+        src: "media/images/Apple Bited 04/4.png",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "media/images/Apple Bited 04/3.png",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+
+      {
+        type: "image",
+        src: "media/images/Apple Bited 04/5.png",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "media/images/Apple Bited 04/Capture.png",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+    ],
+    description: [
+      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
+      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        "Started with strong blockout shapes to ensure a readable silhouette.",
+        "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        "Used variation in ground values to guide the player toward the shrine.",
+        "Kept geometry simple and let the texture work carry most of the detail.",
+      ],
+    },
+  },
+  {
+    slug: "jamie",
+    title: "Jamie",
+    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
+    role: "Environment Artist",
+    engine: "Unreal Engine 5",
+    software: "Blender · Hand-Painted Texturing",
+    year: "2024",
+    tags: ["Stylized", "Hand-Painted", "Composition"],
+    media: [
+      {
+        type: "image",
+        src: "media/images/Jamie/Inkedfinal 2.jpg",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "media/images/Jamie/final 5.png",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+
+      {
+        type: "image",
+        src: "media/images/Jamie/final 6.png",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "media/images/Jamie/final 4.png",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "media/images/Jamie/final 3.png",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "media/images/Jamie/final 7.png",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+    ],
+    description: [
+      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
+      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        "Started with strong blockout shapes to ensure a readable silhouette.",
+        "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        "Used variation in ground values to guide the player toward the shrine.",
+        "Kept geometry simple and let the texture work carry most of the detail.",
+      ],
+    },
+  },
+  {
+    slug: "got",
+    title: "Game of Thrones Book",
+    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
+    role: "Environment Artist",
+    engine: "Unreal Engine 5",
+    software: "Blender · Hand-Painted Texturing",
+    year: "2024",
+    tags: ["Stylized", "Hand-Painted", "Composition"],
+    media: [
+      {
+        type: "image",
+        src: "media/images/GOT - Book/Viewport Cycle.jpg",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "media/images/GOT - Book/Evee_01.jpg",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+
+      {
+        type: "image",
+        src: "media/images/GOT - Book/cYCLE_VIEWPORT_4.jpg",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+      {
+        type: "image",
+        src: "media/images/GOT - Book/cYCLE IEWPORT_03.jpg",
+        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+      },
+    ],
+    description: [
+      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
+      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        "Started with strong blockout shapes to ensure a readable silhouette.",
+        "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        "Used variation in ground values to guide the player toward the shrine.",
+        "Kept geometry simple and let the texture work carry most of the detail.",
+      ],
+    },
+  },
 ];
 
 // ================= TOOL ICON MAP FOR PROJECT SIDEBAR =================
@@ -1284,7 +1806,7 @@ const nextBtn = document.querySelector(".hero-control.next");
 
 let currentIndex = 0;
 let autoplayInterval;
-const AUTOPLAY_DELAY = 2000;
+const AUTOPLAY_DELAY = 4000;
 
 if (slides.length && dotsContainer) {
   slides.forEach((_, index) => {
