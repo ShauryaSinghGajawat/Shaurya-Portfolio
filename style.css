@@ -109,7 +109,8 @@ a {
   background-image: url("media/images/profile-photo.png");
   background-size: cover;
   background-position: center;
-  text-indent: -9999px; /* hide 'AS' text */
+  text-indent: -9999px;
+  /* hide 'AS' text */
 }
 
 .brand-text h1 {
@@ -275,13 +276,11 @@ a {
   height: 40%;
   box-sizing: border-box;
   background:
-    linear-gradient(
-      to top,
+    linear-gradient(to top,
       rgba(255, 255, 255, 0.9) 0%,
       rgba(255, 255, 255, 0.75) 30%,
       rgba(255, 255, 255, 0.35) 65%,
-      rgba(255, 255, 255, 0) 100%
-    );
+      rgba(255, 255, 255, 0) 100%);
   padding: 1.4rem 3rem 2.2rem;
   color: #000;
   border-radius: 0 0 var(--radius-xl) var(--radius-xl);
@@ -418,11 +417,14 @@ a {
   margin-bottom: 2.5rem;
 }
 
-.gallery-grid{  display: grid;
+.gallery-grid {
+  display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1.2rem;
   position: relative;
-  z-index: 5;}
+  z-index: 5;
+}
+
 .gallery-featured-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -539,13 +541,11 @@ a {
   bottom: -60px;
   height: 120px;
   background:
-    linear-gradient(
-      to bottom,
+    linear-gradient(to bottom,
       #000000 0%,
       #000000 40%,
       #444444 70%,
-      #ffffff 100%
-    );
+      #ffffff 100%);
   pointer-events: none;
   z-index: 0;
 }
@@ -573,74 +573,127 @@ body.dim-mode::before {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9);
 }
 
-/* =============== ABOUT / TOOLS (HOME) =============== */
+/* =============== ABOUT ME =============== */
 #about {
-  position: relative;
   margin-top: 2rem;
-  padding: 2rem 2rem;
-  border-radius: 1.5rem;
+  padding: 3rem 2.5rem;
   background: #ffffff;
-  color: #111111;
-  z-index: 1;
-}
-
-#about .section-header {
+  border-radius: 1.5rem;
   color: #111111;
 }
 
-#about .section-header p {
-  color: #555555;
+/* ===============================
+   MAIN ROW
+================================ */
+#about .about-row {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
 }
 
-/* 2 columns: left = auto width (image), right = takes the rest */
-.section-split .split {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 1rem;
-}
-
-.split-block {
-  padding: 1rem;
-}
-
-/* PROFILE PHOTO BLOCK — LEFT, INDENTED TO CONTAINER EDGE */
+/* ===============================
+   PROFILE PHOTO (LEFT)
+================================ */
 .about-photo-block {
+  flex: 0 0 420px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
-/* CIRCULAR ABOUT PHOTO */
 .about-photo-frame {
-  display: block;
-  max-width: 520px;
-  background: #ffffff;
-  padding: 0;
-  border-radius: 999px;
-  border: 4px solid #000000;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  border: 4px solid #000;
   overflow: hidden;
-  aspect-ratio: 1 / 1;
+  background: #ffffff;
 }
 
 .about-photo-frame img {
   width: 100%;
   height: 100%;
-  display: block;
   object-fit: cover;
 }
 
-/* ABOUT TEXT LIST TILE (dark glass on right) */
-#about .split-block.glass {
-  background: #000000;
-  border-color: var(--glass-border);
-  color: var(--fg);
+/* ===============================
+   ACADEMIC BLOCK (CENTER)
+================================ */
+#about .about-academic {
+  flex: 0 0 700px;
+  height: 420px;
+
+  padding: 1.4rem 1.6rem;
+  background: #000;
+  color: #fff;
+  border-radius: 1.4rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+padding-top: 1.8rem; /* subtle breathing room */
 }
 
-.about-list {
+#about .about-academic h3 {
+  margin: 0 0 0.6rem;
+  font-size: 0.95rem;
+}
+
+#about .about-list {
   margin: 0;
   padding-left: 1.1rem;
-  font-size: 0.86rem;
+  font-size: 0.82rem;
   color: #e0e0e0;
+}
+
+/* ===============================
+   RIGHT IMAGE (SINGLE, FULL HEIGHT)
+================================ */
+.about-right-images {
+  flex: 1;                  /* 🔑 fills remaining white space */
+  height: 420px;
+  max-width: 520px;         /* keeps it elegant, not insane */
+
+  display: flex;
+}
+
+.about-right-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 1.4rem;
+  border: 2px solid #000;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 900px) {
+  #about .about-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-right-images {
+    width: 100%;
+    max-width: none;
+  }
+}
+#about .section-header {
+  margin-bottom: 1.2rem;
+}
+
+#about .section-header h2 {
+  font-size: 1.3rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+#about .section-header p {
+  color: #777777;
+  font-size: 0.85rem;
 }
 
 /* TOOLS & SKILLS SECTION */
@@ -789,7 +842,7 @@ body.dim-mode::before {
   color: #muted;
 }
 
-.skill-content li + li {
+.skill-content li+li {
   margin-top: 0.25rem;
 }
 
@@ -1039,7 +1092,8 @@ body.dim-mode::before {
   padding: 0;
   border-radius: 0;
   box-shadow: none;
-  text-align: center; /* center captions */
+  text-align: center;
+  /* center captions */
 }
 
 .project-media-frame {
@@ -1173,7 +1227,7 @@ body.dim-mode::before {
   color: #ffffff;
 }
 
-.project-breakdown li + li {
+.project-breakdown li+li {
   margin-top: 0.3rem;
 }
 
@@ -1412,12 +1466,10 @@ body.dim-mode::before {
     flex-direction: column;
     align-items: flex-start;
     background:
-      linear-gradient(
-        to top,
+      linear-gradient(to top,
         rgba(255, 255, 255, 0.95) 0%,
         rgba(255, 255, 255, 0.9) 40%,
-        rgba(255, 255, 255, 0) 100%
-      );
+        rgba(255, 255, 255, 0) 100%);
   }
 
   .hero-title {
