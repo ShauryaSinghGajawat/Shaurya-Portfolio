@@ -1634,7 +1634,7 @@ const TOOL_ICON_MAP = {
   },
   "Speed Tree": {
     label: "Speed Tree",
-    src: "media/icons/speedtree.png",
+    src: "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/gameworks/Falcor/NewImages/SpeedTree_cropped.png",
   },
   "Unreal Engine 5": {
     label: "Unreal Engine 5",
