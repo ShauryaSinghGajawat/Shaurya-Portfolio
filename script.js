@@ -1634,7 +1634,7 @@ const TOOL_ICON_MAP = {
   },
   "Speed Tree": {
     label: "Speed Tree",
-    src: "media/icons/SpeedTree.png",
+    src: "media/icons/speedtree.png",
   },
   "Unreal Engine 5": {
     label: "Unreal Engine 5",
