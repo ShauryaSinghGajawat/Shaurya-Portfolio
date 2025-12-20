@@ -4,7 +4,7 @@ const PROJECTS = [
   {
     // Environment 1 - FACTORY
     slug: "factory",
-    title: "Factory House | Work In Progress | Inspired by Love Death + Robots - Rat's House Scene",
+    title: "Factory House | Work In Progress | Inspired by Love Death + Robots - Rat's House Scene [ Semester-3 ]",
     software: "Blender · Autodesk Maya · Unreal Engine 5 · ZBrush · Marmoset · Substance 3D Designer · Substance 3D Painter · Speed Tree · Adobe Photoshop · fSpy",
     media: [
       {
@@ -66,10 +66,95 @@ const PROJECTS = [
       ],
     },
   },
-  // Environment 2 - Spaceship
+  // Environment 2 - Laboratory
+  {
+    slug: "laboratory",
+    title: "The Laboratory | Sci-Fi CG Scene | ClayRenders | Work In Progress [ Currently Paused ] [ Semester - 2 ]",
+    software: "Autodesk Maya · Blender · ZBrush · Unreal Engine 5 · Marmoset · fSpy",
+    media: [
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/727/882/4k/shaurya-singh-gajawat-learning-environment-art-main-11zon.webp?1766238773",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/727/933/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00009-11zon.webp?1766238938",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/727/930/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00008-11zon.webp?1766238926",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/727/911/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00017-11zon.webp?1766238879",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/727/907/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00016-11zon.webp?1766238866",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/727/889/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00011-11zon.webp?1766238795",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/727/890/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00012-11zon-1.webp?1766238807",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/727/927/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00007-11zon.webp?1766238915",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/727/900/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00015-11zon.webp?1766238852",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/727/920/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00018-11zon.webp?1766238893",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/727/885/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00010-11zon.webp?1766238784",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/727/924/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00006-11zon.webp?1766238904",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/727/896/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00013-11zon.webp?1766238830",
+        alt: "-",
+      },
+    ],
+    description: [
+      "This environment represents a stylized sci-fi laboratory built with an emphasis on structural repetition and believable space design. Large central pillars act as visual anchors, while exposed cables and ceiling elements add complexity and guide the viewer’s eye through the scene. The warm interior lighting contrasted with cooler ceiling highlights helps define depth and creates a controlled, cinematic atmosphere. The scene is designed with real-time game environments in mind, focusing on composition, readability, and modular asset usage.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        // "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        // "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        // "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        // "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
+  },
+  // Environment 3 - Spaceship
   {
     slug: "spaceship",
-    title: "SpaceCraft At Nowhere | CG Environment Art | Film Pathway Workflow | Maya Scene | Inspired Art",
+    title: "SpaceCraft At Nowhere | CG Environment Art | Film Pathway Workflow | Maya Scene | Inspired Art [ Semester-1 ]",
     software: "Autodesk Maya · Substance 3D Painter · ZBrush",
     media: [
       {
@@ -101,7 +186,7 @@ const PROJECTS = [
       ],
     },
   },
-  // Environment 3 - Japanese Classroom
+  // Environment 4 - Japanese Classroom
   {
     slug: "classroom",
     title: "Japanese Classroom | CG Scene | Old Work (2-3 years ago) | First Scene",
@@ -1360,7 +1445,7 @@ const PROJECTS = [
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/076/670/822/4k/shaurya-singh-gajawat-learning-environment-artist-variation-001.jpg?1717515032",
-        alt:"-",
+        alt: "-",
       },
       {
         type: "image",
@@ -1665,6 +1750,7 @@ const TOOL_ICON_MAP = {
 // ================= SIDEBAR PROJECT ORDER =================
 const SIDEBAR_PROJECT_ORDER = [
   "factory",
+  "laboratory",
   "spaceship",
   "headset",
   "bag1",
