@@ -583,12 +583,36 @@ body.dim-mode::before {
 }
 
 /* ===============================
+   SECTION HEADER
+================================ */
+#about .section-header {
+  margin-bottom: 1.2rem;
+}
+
+#about .section-header h2 {
+  font-size: 1.3rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+#about .section-header p {
+  color: #777777;
+  font-size: 0.85rem;
+}
+
+/* ===============================
    MAIN ROW
 ================================ */
 #about .about-row {
   display: flex;
   gap: 2rem;
-  align-items: center;
+  align-items: flex-start; /* top aligned */
+}
+
+/* prevent flex glitches */
+#about .about-row > * {
+  min-width: 0;
 }
 
 /* ===============================
@@ -599,6 +623,7 @@ body.dim-mode::before {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .about-photo-frame {
@@ -624,6 +649,8 @@ body.dim-mode::before {
   height: 420px;
 
   padding: 1.4rem 1.6rem;
+  padding-top: 1.8rem;
+
   background: #000;
   color: #fff;
   border-radius: 1.4rem;
@@ -631,7 +658,8 @@ body.dim-mode::before {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-padding-top: 1.8rem; /* subtle breathing room */
+
+  flex-shrink: 0;
 }
 
 #about .about-academic h3 {
@@ -640,21 +668,32 @@ padding-top: 1.8rem; /* subtle breathing room */
 }
 
 #about .about-list {
-  margin: 0;
-  padding-left: 1.1rem;
   font-size: 0.82rem;
   color: #e0e0e0;
 }
+
+#about .about-list p {
+  margin: 0 0 0.6rem;
+}
+
+#about .about-list ul {
+  margin: 0.4rem 0 0.8rem;
+  padding-left: 1.1rem;
+}
+
 
 /* ===============================
    RIGHT IMAGE (SINGLE, FULL HEIGHT)
 ================================ */
 .about-right-images {
-  flex: 1;                  /* 🔑 fills remaining white space */
+  flex: 1;
   height: 420px;
-  max-width: 520px;         /* keeps it elegant, not insane */
+  max-width: 520px;
 
   display: flex;
+  align-items: stretch;
+
+  flex-shrink: 0;
 }
 
 .about-right-images img {
@@ -667,7 +706,7 @@ padding-top: 1.8rem; /* subtle breathing room */
 }
 
 /* ===============================
-   RESPONSIVE
+   RESPONSIVE (UNCHANGED LOGIC)
 ================================ */
 @media (max-width: 900px) {
   #about .about-row {
@@ -680,20 +719,21 @@ padding-top: 1.8rem; /* subtle breathing room */
     max-width: none;
   }
 }
-#about .section-header {
-  margin-bottom: 1.2rem;
-}
 
-#about .section-header h2 {
-  font-size: 1.3rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #111111;
-}
 
-#about .section-header p {
-  color: #777777;
-  font-size: 0.85rem;
+/* ===============================
+   RESPONSIVE (UNCHANGED LOGIC)
+================================ */
+@media (max-width: 900px) {
+  #about .about-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-right-images {
+    width: 100%;
+    max-width: none;
+  }
 }
 
 /* TOOLS & SKILLS SECTION */
@@ -1510,4 +1550,68 @@ padding-top: 1.8rem; /* subtle breathing room */
   .lightbox-inner {
     padding: 0.6rem 0.7rem 0.7rem;
   }
+}
+/* =============== FOOTER SOCIAL ICONS =============== */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-socials a {
+  width: 26px;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaaaaa;
+  transition:
+    transform 0.18s ease,
+    color 0.18s ease;
+}
+
+.footer-socials a svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+.footer-socials a:hover {
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+/* =============== FOOTER SOCIAL ICONS (CUSTOM) =============== */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.footer-socials a {
+  width: 26px;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    transform 0.18s ease,
+    opacity 0.18s ease;
+}
+
+.footer-socials a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0.75);
+  transition: filter 0.18s ease;
+}
+
+.footer-socials a:hover {
+  transform: translateY(-2px);
+}
+
+.footer-socials a:hover img {
+  filter: brightness(1);
 }

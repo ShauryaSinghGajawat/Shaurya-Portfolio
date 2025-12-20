@@ -2,616 +2,644 @@
 
 const PROJECTS = [
   {
+    // Environment 1 - FACTORY
     slug: "factory",
-    title: "Factory",
-    subtitle:
-      "Real-time corridor built for third-person gameplay in Unreal Engine.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter · Designer",
-    year: "2025",
-    tags: ["Sci-Fi", "Modular", "Lighting"],
+    title: "Factory House | Work In Progress | Inspired by Love Death + Robots - Rat's House Scene",
+    software: "Blender · Autodesk Maya · Unreal Engine 5 · ZBrush · Marmoset · Substance 3D Designer · Substance 3D Painter · Speed Tree · Adobe Photoshop · fSpy",
     media: [
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/094/699/559/4k/shaurya-singh-gajawat-learning-environment-art-highresscreenshot00017.webp?1766145927",
-        alt: "Main view of modular sci-fi corridor",
+        alt: "Latest Render - Work In Progress",
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/991/198/work-is-in-progress.mp4",
-        caption: "Bag Video"
+        caption: "Work In Progress_ SlideShow"
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/699/672/4k/shaurya-singh-gajawat-learning-environment-art-week-08.webp?1766146204",
-        alt: "Main view of modular sci-fi corridor",
+        alt: "Week_08",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/699/698/4k/shaurya-singh-gajawat-learning-environment-art-week-07.webp?1766146232",
-        alt: "Main view of modular sci-fi corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/094/699/660/4k/shaurya-singh-gajawat-learning-environment-art-week-03.webp?1766146184",
-        alt: "Main view of modular sci-fi corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/094/699/654/4k/shaurya-singh-gajawat-learning-environment-art-week-02-1.webp?1766146179",
-        alt: "Main view of modular sci-fi corridor",
+        alt: "Week_07",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/094/699/685/4k/shaurya-singh-gajawat-learning-environment-art-week-06-1.webp?1766146215",
-        alt: "Main view of modular sci-fi corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/094/699/664/4k/shaurya-singh-gajawat-learning-environment-art-week-04.webp?1766146197",
-        alt: "Main view of modular sci-fi corridor",
+        alt: "Week_06",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/699/568/4k/shaurya-singh-gajawat-learning-environment-art-week-05.webp?1766145939",
-        alt: "Main view of modular sci-fi corridor",
+        alt: "Week_05",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/699/664/4k/shaurya-singh-gajawat-learning-environment-art-week-04.webp?1766146197",
+        alt: "Week_03",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/699/660/4k/shaurya-singh-gajawat-learning-environment-art-week-03.webp?1766146184",
+        alt: "Week_02",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/699/654/4k/shaurya-singh-gajawat-learning-environment-art-week-02-1.webp?1766146179",
+        alt: "Week_01",
       },
     ],
     description: [
-      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
+      "A stylized environment scene featuring large farm structures with exaggerated shapes and clean silhouettes. The focus was on architectural design, material variation, and lighting to create a readable, believable rural setting, while keeping the scene optimized and suitable for a real-time game environment.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
-        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
-        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+        // "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        // "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        // "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        // "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
       ],
     },
   },
+  // Environment 2 - Spaceship
   {
     slug: "spaceship",
-    title: "Spaceship",
-    subtitle:
-      "Real-time corridor built for third-person gameplay in Unreal Engine.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter · Designer",
-    year: "2025",
-    tags: ["Sci-Fi", "Modular", "Lighting"],
+    title: "SpaceCraft At Nowhere | CG Environment Art | Film Pathway Workflow | Maya Scene | Inspired Art",
+    software: "Autodesk Maya · Substance 3D Painter · ZBrush",
     media: [
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/701/898/4k/shaurya-singh-gajawat-learning-environment-art-shauryagajawat-nowhere-remains.jpg?1766151781",
-        alt: "Main view of modular sci-fi corridor",
+        alt: "Final Scene Render",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/094/701/877/4k/shaurya-singh-gajawat-learning-environment-art-shauryagajawat-final100-l06-compare.webp?1766151704",
-        alt: "Main view of modular sci-fi corridor",
+        alt: "Side by Side Reference",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/094/701/885/4k/shaurya-singh-gajawat-learning-environment-art-shauryagajawat-final100-l06-textured.webp?1766151730",
-        alt: "Main view of modular sci-fi corridor",
+        alt: "Grayscale",
       },
     ],
     description: [
-      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
+      "A cinematic sci-fi environment showcasing a damaged spacecraft wrecked in an sandy terrain. The scene focuses on strong composition, lighting contrast, and scale, using warm sunset light against sandy and rock to highlight the wreckage and create a sense of isolation and narrative.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
-        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
-        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+        // "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        // "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        // "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        // "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
       ],
     },
   },
+  // Environment 3 - Japanese Classroom
   {
     slug: "classroom",
-    title: "Japanese Classroom",
-    subtitle:
-      "Real-time corridor built for third-person gameplay in Unreal Engine.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter · Designer",
-    year: "2025",
-    tags: ["Sci-Fi", "Modular", "Lighting"],
+    title: "Japanese Classroom | CG Scene | Old Work (2-3 years ago) | First Scene",
+    software: "Blender · Adobe Photoshop",
     media: [
       {
         type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/094/704/366/4k/shaurya-singh-gajawat-learning-environment-art-inkedclassroom-render-2.webp?1766156082",
-        alt: "Main view of modular sci-fi corridor",
+        src: "https://cdnb.artstation.com/p/assets/images/images/094/704/359/4k/shaurya-singh-gajawat-learning-environment-art-classroom-render-3.webp?1766156291",
+        alt: "001",
       },
       {
         type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/094/704/359/4k/shaurya-singh-gajawat-learning-environment-art-classroom-render-3.webp?1766156291",
-        alt: "Main view of modular sci-fi corridor",
+        src: "https://cdna.artstation.com/p/assets/images/images/094/704/366/4k/shaurya-singh-gajawat-learning-environment-art-inkedclassroom-render-2.webp?1766156082",
+        alt: "002",
       },
+
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/704/364/4k/shaurya-singh-gajawat-learning-environment-art-classroomk-1-1.webp?1766156080",
-        alt: "Main view of modular sci-fi corridor",
+        alt: "003",
       },
     ],
     description: [
-      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
+      "A stylized classroom environment inspired by Japanese school interiors. The scene focuses on clean layout, simple geometry, and soft lighting to create a calm, familiar atmosphere. Attention was given to prop placement, color balance, and readability to make the space feel lived-in while remaining suitable for real-time use.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
-        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
-        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+        // "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        // "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        // "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        // "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
       ],
     },
   },
+  // Asset 1 - Headset
   {
     slug: "headset",
-    title: "Headset",
+    title: "Headphone AAA Game Ready Asset | Cybepunk Style | Hero Asset | Inspired By Pickering Vintage Version",
     subtitle:
       "Real-time corridor built for third-person gameplay in Unreal Engine.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter · Designer",
-    year: "2025",
-    tags: ["Sci-Fi", "Modular", "Lighting"],
+    software: "Autodesk Maya · Marmoset · Substance 3D Painter · ZBrush · Blender",
     media: [
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/700/598/4k/shaurya-singh-gajawat-learning-environment-art-06-render.webp?1766148875",
-        alt: "Main view of modular sci-fi corridor",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/094/701/049/4k/shaurya-singh-gajawat-learning-environment-art-07-render.webp?1766150053",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/700/582/4k/shaurya-singh-gajawat-learning-environment-art-04-render.webp?1766148843",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/094/700/193/4k/shaurya-singh-gajawat-learning-environment-art-004-11zon.jpg?1766147713",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/700/186/4k/shaurya-singh-gajawat-learning-environment-art-003-11zon.webp?1766147671",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/700/218/4k/shaurya-singh-gajawat-learning-environment-art-005-11zon.webp?1766147747",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/700/216/4k/shaurya-singh-gajawat-learning-environment-art-006-11zon.webp?1766147740",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/700/380/4k/shaurya-singh-gajawat-learning-environment-art-002-simple-viewport-7-11zon.webp?1766148265",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/094/700/383/4k/shaurya-singh-gajawat-learning-environment-art-001-simple-8-11zon.webp?1766148271",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/700/388/4k/shaurya-singh-gajawat-learning-environment-art-007-1-11zon.webp?1766148284",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/700/392/4k/shaurya-singh-gajawat-learning-environment-art-008-2-11zon.webp?1766148291",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/700/400/4k/shaurya-singh-gajawat-learning-environment-art-0010-6-11zon.webp?1766148304",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/700/396/4k/shaurya-singh-gajawat-learning-environment-art-009-5-11zon.webp?1766148297",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/702/470/4k/shaurya-singh-gajawat-learning-environment-art-0012-11zon.webp?1766152892",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/702/474/4k/shaurya-singh-gajawat-learning-environment-art-0013-11zon.webp?1766152899",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/701/372/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-48-30.webp?1766150677",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/094/701/375/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-48-53-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150681",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/701/378/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-49-34-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150685",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/094/701/383/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-53-50.webp?1766150692",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/701/530/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-55-50-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150943",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/701/534/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-57-40-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150949",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/094/701/532/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-56-46-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150946",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/094/701/535/4k/shaurya-singh-gajawat-learning-environment-art-2025-12-19-18-57-59-adobe-substance-3d-painter-headsets-aaa-heroprop-final-textures-safe-autosave.webp?1766150952",
-        alt: "Detail shot of corridor trims and materials",
+        alt: "-",
       },
     ],
     description: [
-      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
+      "A realistic headset prop focused on believable materials, subtle surface wear, and layered detailing. The presentation emphasizes mood and form, using controlled lighting to highlight textures, edges, and overall construction.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
-        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
-        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+        //"",
       ],
     },
   },
+  // Asset 2 - Just A Bag 1!
   {
-    slug: "hammer",
-    title: "Hammer",
+    slug: "bag1",
+    title: "The Backpack | Fabric - Jute | Muddy, Oily & Old | Hero Prop | Textured Vers | In Foundry Mari",
+    software: "Adobe Photoshop · Substance 3D Painter · Mari · Autodesk Maya · ZBrush",
+    media: [
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/273/092/4k/shaurya-singh-gajawat-learning-environment-artist-color.jpg?1750515281",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/379/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-shaded-005.jpg?1750515413",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/383/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-shaded-004.jpg?1750515418",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/273/398/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-shaded-003.jpg?1750515443",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/491/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-47-50.jpg?1750515621",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/273/486/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-41-49.jpg?1750515611",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/273/490/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-46-56.jpg?1750515617",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/447/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-56-46.jpg?1750515547",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/495/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-49-01.jpg?1750515628",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/533/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-decals-closeups-001.jpg?1750515717",
+        alt: "Decals",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/273/416/4k/shaurya-singh-gajawat-learning-environment-artist-02.jpg?1750515475",
+        alt: "Stiches_Bump_01",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/421/4k/shaurya-singh-gajawat-learning-environment-artist-01.jpg?1750515484",
+        alt: "Stiches_Bump_02",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/507/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-21-51.jpg?1750515650",
+        alt: "Spec-01",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/273/510/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-22-51.jpg?1750515654",
+        alt: "Spec-02",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/273/514/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-23-45.jpg?1750515659",
+        alt: "Spec-03",
+      },
+    ],
+    description: [
+      "A hero backpack prop focused on believable materials, layered fabric and leather panels, and subtle surface wear. Details like stitching, straps, zippers, and dirt buildup were used to make the prop feel functional, used, and suitable for a real-time environment.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        // "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        // "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        // "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        // "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
+  },
+  // Asset 3 - Just A Bag 2!
+  {
+    slug: "bag2",
+    title: "The Backpack | Hero Prop | Shaded Version | Uved Map | Zbrush",
+    software: "Autodesk Maya · Substance 3D Painter · ZBrush · Mari · Adobe Photoshop · Vray",
+    media: [
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/189/297/4k/shaurya-singh-gajawat-learning-environment-artist-shd-001.jpg?1750268935",
+        alt: "-",
+      },
+      {
+        type: "video",
+        src: "https://cdn.artstation.com/p/video_sources/002/685/752/00002.mp4?autoplay=1&mute=1&loop=1",
+        caption: "-"
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/335/4k/shaurya-singh-gajawat-learning-environment-artist-004.jpg?1750270847",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/190/460/4k/shaurya-singh-gajawat-learning-environment-artist-untitled-1.jpg?1750271020",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/455/4k/shaurya-singh-gajawat-learning-environment-artist-003.jpg?1750271009",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/190/312/4k/shaurya-singh-gajawat-learning-environment-artist-002.jpg?1750270823",
+        alt: "-",
+      },
+      {
+        type: "video",
+        src: "https://cdn.artstation.com/p/video_sources/002/685/798/2.mp4",
+        caption: "-"
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/497/4k/shaurya-singh-gajawat-learning-environment-artist-7.jpg?1750271070",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/485/4k/shaurya-singh-gajawat-learning-environment-artist-6.jpg?1750271058",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/503/4k/shaurya-singh-gajawat-learning-environment-artist-5.jpg?1750271085",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/190/518/4k/shaurya-singh-gajawat-learning-environment-artist-3.jpg?1750271104",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/509/4k/shaurya-singh-gajawat-learning-environment-artist-4.jpg?1750271094",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/190/528/4k/shaurya-singh-gajawat-learning-environment-artist-2.jpg?1750271116",
+        alt: "-",
+      },
+      {
+        type: "video",
+        src: "https://cdn.artstation.com/p/video_sources/002/685/801/3.mp4",
+        caption: "-"
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/190/562/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-spec-001.jpg?1750271185",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/190/564/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-stitches-bump-002.jpg?1750271190",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/567/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-displacement-001.jpg?1750271193",
+        alt: "Displacement Map",
+      },
+    ],
+    description: [
+      "A shaded hero backpack prop focused on clean topology, accurate proportions, and construction details. The presentation highlights the overall form, strap layout, buckles, zippers, and padding, ensuring the model reads well from all angles before texturing.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        // "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        // "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        // "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        // "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
+  },
+  // Asset 4 - Brain In The Jar
+  {
+    slug: "braininjar",
+    title: "Cradle of Thought | Suspension 3.2.43 – Last Known Archive",
     subtitle:
       "Real-time corridor built for third-person gameplay in Unreal Engine.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter · Designer",
-    year: "2025",
-    tags: ["Sci-Fi", "Modular", "Lighting"],
+    software: "Autodesk Maya · Substance 3D Painter · Mari",
     media: [
       {
         type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/079/156/100/4k/shaurya-singh-gajawat-learning-environment-artist-thumbnail-hammer-render-03.jpg?1724141428",
-        alt: "Main view of modular sci-fi corridor",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/787/478/4k/shaurya-singh-gajawat-learning-environment-artist-002-no-rays-render.jpg?1751960892",
+        alt: "-",
       },
       {
         type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/079/156/106/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-01.jpg?1724141419",
-        alt: "Detail shot of corridor trims and materials",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/834/530/4k/shaurya-singh-gajawat-learning-environment-artist-484823524-17849365239426418-6424053854920204834-n.jpg?1752075839",
+        alt: "Mari Nodes Graph",
       },
       {
         type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/079/156/112/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-03.jpg?1724141426",
-        alt: "Detail shot of corridor trims and materials",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/079/156/108/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-02.jpg?1724141422",
-        alt: "Gameplay camera view down the corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/079/156/115/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-04.jpg?1724141430",
-        alt: "Gameplay camera view down the corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/079/156/118/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-06.jpg?1724141438",
-        alt: "Gameplay camera view down the corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/079/156/122/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-08.jpg?1724141448",
-        alt: "Gameplay camera view down the corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/079/156/119/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-07.jpg?1724141442",
-        alt: "Gameplay camera view down the corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/079/156/117/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-05.jpg?1724141434",
-        alt: "Gameplay camera view down the corridor",
-      },
-      {
-        type: "video",
-        src: "https://cdn.artstation.com/p/video_sources/002/225/662/hammer-360-face-oreintation.mp4",
-        caption: "Bag Video"
-      },
-      {
-        type: "video",
-        src: "https://cdn.artstation.com/p/video_sources/002/225/663/hammer-greyscale-360-degree.mp4",
-        caption: "Bag Video"
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/079/156/126/4k/shaurya-singh-gajawat-learning-environment-artist-evee.jpg?1724141457",
-        alt: "Gameplay camera view down the corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/079/156/130/4k/shaurya-singh-gajawat-learning-environment-artist-evee-02.jpg?1724141460",
-        alt: "Gameplay camera view down the corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/079/156/132/4k/shaurya-singh-gajawat-learning-environment-artist-evee-03.jpg?1724141462",
-        alt: "Gameplay camera view down the corridor",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/079/156/134/4k/shaurya-singh-gajawat-learning-environment-artist-evee-04.jpg?1724141465",
-        alt: "Gameplay camera view down the corridor",
+        src: "https://cdna.artstation.com/p/assets/images/images/089/834/630/4k/shaurya-singh-gajawat-learning-environment-artist-482714530-17846578269426418-7002585884920958835-n.jpg?1752075995",
+        alt: "UDIM's",
       },
     ],
     description: [
-      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
+      "A sci-fi prop focused on mood and presentation, featuring a preserved brain contained inside a glass jar with exposed cables and supporting hardware. The lighting and composition were used to create an eerie, experimental feel while keeping the central form clearly readable.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
-        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
-        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+        // "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        // "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        // "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        // "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
       ],
     },
   },
-  {
-    slug: "sea",
-    title: "Sea",
-    subtitle: "Overgrown ruins with strong mood, depth and foliage layering.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · SpeedTree · Substance 3D Painter",
-    year: "2025",
-    tags: ["Nature", "Atmosphere", "Storytelling"],
-    media: [
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/079/166/233/medium/shaurya-singh-gajawat-learning-environment-artist-fine-thumnails.jpg?1724163946",
-        alt: "Wide shot of ruined temple in the forest",
-      },
-      {
-        type: "video",
-        src: "https://cdn.artstation.com/p/video_sources/002/136/550/final-ocean-animation.mp4",
-        caption: "Bag Video"
-      },
-
-    ],
-    description: [
-      "An environment focused on atmosphere and depth, exploring how foliage density and fog shape the mood.",
-      "The ruins are designed around a clear composition with a strong focal point and leading lines for the player.",
-    ],
-    breakdown: {
-      title: "Breakdown",
-      items: [
-        "Blocked in terrain and major shapes to lock composition early.",
-        "Layered foliage from large to small to avoid noisy reads.",
-        "Used height fog and light shafts to separate foreground, midground and background.",
-        "Added storytelling props like broken statues and offerings to suggest a forgotten history.",
-      ],
-    },
-  },
-  {
-    slug: "clifftop-shrine",
-    title: "Clifftop Shrine",
-    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Hand-Painted Texturing",
-    year: "2024",
-    tags: ["Stylized", "Hand-Painted", "Composition"],
-    media: [
-      {
-        type: "image",
-        src: "media/images/Concept - Light Shrine/2Final.jpg",
-        alt: "Wide shot of clifftop shrine",
-      },
-      {
-        type: "image",
-        src: "media/images/Concept - Light Shrine/Perpsective.jpg",
-        alt: "Close-up of hand-painted shrine details",
-      },
-      {
-        type: "video",
-        src: "media/images/Concept - Light Shrine/latten fasted.mp4",
-        alt: "Close-up of hand-painted shrine details",
-      },
-    ],
-    description: [
-      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
-      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
-    ],
-    breakdown: {
-      title: "Breakdown",
-      items: [
-        "Started with strong blockout shapes to ensure a readable silhouette.",
-        "Painted diffuse-only textures with baked lighting details for a painterly look.",
-        "Used variation in ground values to guide the player toward the shrine.",
-        "Kept geometry simple and let the texture work carry most of the detail.",
-      ],
-    },
-  },
+  //Asset 5 - Arcane Cube
   {
     slug: "arcane-cube",
-    title: "Arcane Cube",
+    title: "Stylized Box | Arcane Style Textures | Environment Prop- Box | 2D + 3D Prop Art Style (Vector Asset)",
     subtitle: "Hard-surface sci-fi lab with clean materials and variety.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter",
-    year: "2024",
-    tags: ["Sci-Fi", "Hard Surface", "Materials"],
+    software: "Blender · Adobe Photoshop",
     media: [
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/082/156/716/4k/shaurya-singh-gajawat-learning-environment-artist-thumbnail.jpg?1732204476",
-        alt: "Hero render of backpack prop",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/082/156/677/4k/shaurya-singh-gajawat-learning-environment-artist-shaded-0606.jpg?1732204456",
-        alt: "Hero render of backpack prop",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/082/156/674/4k/shaurya-singh-gajawat-learning-environment-artist-03-03.jpg?1732204440",
-        alt: "Hero render of backpack prop",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/082/156/665/4k/shaurya-singh-gajawat-learning-environment-artist-02-02.jpg?1732204425",
-        alt: "Hero render of backpack prop",
+        alt: "-",
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/291/636/final.mp4",
-        caption: "Bag Video"
+        caption: "Stylized Box | Arcane Style | Navigation Video"
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/082/157/387/4k/shaurya-singh-gajawat-learning-environment-artist-sdsdssa.jpg?1732205614",
-        alt: "Hero render of backpack prop",
+        alt: "Behind the scene_02",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/082/157/386/4k/shaurya-singh-gajawat-learning-environment-artist-capture.jpg?1732205610",
-        alt: "Hero render of backpack prop",
+        alt: "Behind the scene_01",
       },
 
     ],
     description: [
-      "A clean sci-fi lab interior with a focus on hard-surface modeling and material variation.",
-      "The layout is arranged around key gameplay spaces like consoles and interactive lab equipment.",
+      "A stylized arcane cube prop focused on hand-painted textures, soft color transitions, and controlled lighting. The piece emphasizes simple geometry with surface cracks and painterly details to give it a magical, slightly worn look while keeping the form clean and readable.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Modeled modular wall and floor pieces to quickly build the lab layout.",
-        "Created multiple material variants for metals, plastics and glass.",
-        "Used lighting and emissives to highlight important gameplay areas.",
-        "Added small props and decals to break repetition and add scale.",
+        // "Modeled modular wall and floor pieces to quickly build the lab layout.",
+        // "Created multiple material variants for metals, plastics and glass.",
+        // "Used lighting and emissives to highlight important gameplay areas.",
+        // "Added small props and decals to break repetition and add scale.",
       ],
     },
   },
+  // Asset 6 - Mountain Village
   {
     slug: "mountain-village",
-    title: "Mountain Village",
-    subtitle: "Cozy village on a cliffside with storytelling props.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter",
-    year: "2023",
-    tags: ["Nature", "Storytelling", "Props"],
+    title: "Stylized Hut | 3D Model | Environment Model | Time-lapse + UV Maps | Low Poly Model",
+    software: "Blender · Adobe Photoshop",
     media: [
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/081/889/462/4k/shaurya-singh-gajawat-learning-environment-artist-thumbnail-02.jpg?1731501947",
-        alt: "Overview of mountain village",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/081/889/355/4k/shaurya-singh-gajawat-learning-environment-artist-05.jpg?1731501772",
-        alt: "Close shot of village props and houses",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/081/889/361/4k/shaurya-singh-gajawat-learning-environment-artist-front-render.jpg?1731501788",
-        alt: "Village seen from the back",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/081/889/364/4k/shaurya-singh-gajawat-learning-environment-artist-right-render.jpg?1731501795",
-        alt: "Front view of the main house cluster",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/081/889/357/4k/shaurya-singh-gajawat-learning-environment-artist-back.jpg?1731501782",
-        alt: "Side angle showing village depth",
+        alt: "-",
       },
       {
         type: "embed",
         src: "https://sketchfab.com/models/eabe446a3b024a14a1521e1a0cb75050/embed?ui_infos=0",
-        caption: "Stylized hut — real-time 3D model (Sketchfab)"
+        caption: "Navigable Hut Stylized 3D Environment Model"
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/277/023/turnround.mp4",
-        caption: "Bag Video"
+        caption: "Round About"
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/276/976/hut-stylized-3d-model-to-uplox-01.mp4",
-        caption: "Bag Video"
+        caption: "Timelapse Part 01"
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/276/974/02.mp4",
-        caption: "Bag Video"
+        caption: "Timelapse Part 02"
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/276/985/my-video4444444444444.mp4",
-        caption: "Bag Video"
+        caption: "-"
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/276/989/0000000uplox-evee-wirefram-front-up-video.mp4",
-        caption: "Bag Video"
+        caption: "Turnaround"
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/276/981/my-video00000011.mp4",
-        caption: "Bag Video"
+        caption: "-"
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/276/993/my-video22222222222222222222.mp4",
-        caption: "Bag Video"
+        caption: "-"
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/081/890/080/4k/shaurya-singh-gajawat-learning-environment-artist-completed-textured-hut-uv-map-color.jpg?1731502906",
-        alt: "Side angle showing village depth",
+        alt: "Texture Map Stylized Hand Texture Paint - Completed",
       },
       {
         type: "image",
@@ -630,1117 +658,944 @@ const PROJECTS = [
       },
     ],
     description: [
-      "A small village environment focusing on storytelling with props and wear.",
-      "Each house has props that hint at the inhabitants, making the world feel lived-in.",
+      "A stylized hut environment model focused on exaggerated shapes, hand-painted textures, and bright color separation. The piece emphasizes readability and charm, using simple geometry, soft lighting, and stylized materials to create a clear and appealing game-ready asset.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Planned the village layout around a main path leading to the highest point.",
-        "Added storytelling clusters like workbenches, laundry and crates.",
-        "Used different levels of wear on props to hint at history and use.",
-        "Tweaked lighting and sky values to support a warm, inviting mood.",
+        // "Planned the village layout around a main path leading to the highest point.",
+        // "Added storytelling clusters like workbenches, laundry and crates.",
+        // "Used different levels of wear on props to hint at history and use.",
+        // "Tweaked lighting and sky values to support a warm, inviting mood.",
       ],
     },
   },
-  {
-    slug: "skull",
-    title: "Cheetah Skull",
-    subtitle: "Hard-surface and organic detailing on a cheetah skull prop.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter",
-    year: "2023",
-    tags: ["Props", "Anatomy", "Detailing"],
-    media: [
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/077/022/268/4k/shaurya-singh-gajawat-learning-environment-artist-rgfgfdgf.jpg?1718365837",
-        alt: "Hero view of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/077/022/250/4k/shaurya-singh-gajawat-learning-environment-artist-fdfdsfdsf.jpg?1718365812",
-        alt: "Close-up of skull detailing",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/077/022/266/4k/shaurya-singh-gajawat-learning-environment-artist-rfghfghg.jpg?1718365832",
-        alt: "Side view of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/281/4k/shaurya-singh-gajawat-learning-environment-artist-uyuyu.jpg?1718365849",
-        alt: "Three-quarter view of skull on stand",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/277/4k/shaurya-singh-gajawat-learning-environment-artist-sdasdasdas.jpg?1718365843",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/249/4k/shaurya-singh-gajawat-learning-environment-artist-fdasadasf.jpg?1718365809",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/279/4k/shaurya-singh-gajawat-learning-environment-artist-ttrterertyr.jpg?1718365847",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/077/022/240/4k/shaurya-singh-gajawat-learning-environment-artist-bdfgxdgsddg.jpg?1718365798",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/247/4k/shaurya-singh-gajawat-learning-environment-artist-dfdfd.jpg?1718365806",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/077/022/260/4k/shaurya-singh-gajawat-learning-environment-artist-gfgfgfgfdss.jpg?1718365826",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/253/4k/shaurya-singh-gajawat-learning-environment-artist-fgdgfgfdg.jpg?1718365815",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/077/022/272/4k/shaurya-singh-gajawat-learning-environment-artist-safasfasf.jpg?1718365840",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/077/022/282/4k/shaurya-singh-gajawat-learning-environment-artist-zbrush-documen-1t.jpg?1718365852",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/263/4k/shaurya-singh-gajawat-learning-environment-artist-ngj.jpg?1718365830",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/259/4k/shaurya-singh-gajawat-learning-environment-artist-gfgfgfgf.jpg?1718365823",
-        alt: "Back view and occlusion of cheetah skull",
-      },
-      {
-        type: "video",
-        src: "https://cdn.artstation.com/p/video_sources/002/028/334/ererere.mp4",
-        caption: "Bag Video"
-      },
-    ],
-    description: [
-      "A hero prop study of a cheetah skull, focusing on anatomy and material breakup.",
-      "Used roughness variation and subtle color changes to suggest age and wear.",
-    ],
-    breakdown: {
-      title: "Breakdown",
-      items: [
-        "Started from a low-poly sculpt to lock proportions quickly.",
-        "Refined details with sculpting passes focusing on cracks and cavities.",
-        "Textured with layered dirt and discoloration maps.",
-        "Rendered with simple lighting to clearly show form.",
-      ],
-    },
-  },
-  {
-    slug: "crate",
-    title: "Sci-fi Crate",
-    subtitle: "A modular sci-fi crate prop with clean reads.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter",
-    year: "2023",
-    tags: ["Props", "Sci-Fi", "Hard Surface"],
-    media: [
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/079/286/787/4k/shaurya-singh-gajawat-learning-environment-artist-001-1.jpg?1724487659",
-        alt: "Hero render of sci-fi crate",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/079/286/763/4k/shaurya-singh-gajawat-learning-environment-artist-untitled-2-3.jpg?1724487630",
-        alt: "Alternative angle of sci-fi crate",
-      },
-    ],
-    description: [
-      "A game-ready sci-fi crate designed to work as a modular prop in multiple environments.",
-      "Emphasis on clear silhouettes and believable surface wear.",
-    ],
-    breakdown: {
-      title: "Breakdown",
-      items: [
-        "Built a low-poly and high-poly pair for clean bakes.",
-        "Used anchor points in Painter for layered edge wear.",
-        "Kept color accents minimal to maintain readability.",
-        "Rendered at multiple focal lengths to test in engine.",
-      ],
-    },
-  },
-  {
-    slug: "knife",
-    title: "Knife",
-    subtitle: "A rugged knife prop with story-driven wear.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter",
-    year: "2023",
-    tags: ["Props", "Storytelling", "Hard Surface"],
-    media: [
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/075/263/058/4k/shaurya-singh-gajawat-environment-props-inkedrender-006.jpg?1714117726",
-        alt: "Hero render of knife prop",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/075/263/057/4k/shaurya-singh-gajawat-environment-props-inkedrender-004.jpg?1714117721",
-        alt: "Close-up on knife handle and grip",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/075/263/056/4k/shaurya-singh-gajawat-environment-props-inkedrender-003.jpg?1714117718",
-        alt: "Knife seen in-engine with lighting",
-      },
-      {
-        type: "embed",
-        src: "https://sketchfab.com/models/64271b9d55ce43258cbf41a20ba4e02e/embed?ui_infos=0",
-        caption: "Knife — real-time 3D environment asset (Sketchfab)"
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/075/263/314/4k/shaurya-singh-gajawat-environment-props-desktop-screenshot-2024-04-26-13-31-36-39.jpg?1714118601",
-        alt: "Knife seen in-engine with lighting",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/075/263/319/4k/shaurya-singh-gajawat-environment-props-desktop-screenshot-2024-04-26-13-32-18-00.jpg?1714118610",
-        alt: "Knife seen in-engine with lighting",
-      },
-
-
-    ],
-    description: [
-      "A knife designed as a character prop with heavy use and surface story.",
-      "The materials focus on contrast between metal, rubber and leather.",
-    ],
-    breakdown: {
-      title: "Breakdown",
-      items: [
-        "Gathered reference from outdoor survival knives.",
-        "Sculpted subtle dents and bends instead of perfect shapes.",
-        "Textured with layered edge damage and fingerprints.",
-        "Tested in a simple lighting scenario to balance roughness.",
-      ],
-    },
-  },
-  {
-    slug: "medieval-home",
-    title: "Medieval Home",
-    subtitle: "A medieval house blockout taken toward a finished prop.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter",
-    year: "2023",
-    tags: ["Architecture", "Storytelling", "Props"],
-    media: [
-      {
-        type: "image",
-        src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-28.jpg",
-        alt: "Front view of medieval home",
-      },
-      {
-        type: "image",
-        src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-29 (2).jpg",
-        alt: "Angle view of medieval home structure",
-      },
-      {
-        type: "image",
-        src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-29.jpg",
-        alt: "Detail view of windows and beams",
-      },
-      {
-        type: "image",
-        src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-30.jpg",
-        alt: "Side view of medieval house layout",
-      },
-      {
-        type: "image",
-        src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-31.jpg",
-        alt: "Roof and chimney details",
-      },
-      {
-        type: "image",
-        src: "media/images/Medieval Incomplete House/photo_2023-03-26_14-33-17 (2).jpg",
-        alt: "Alternate angle of medieval home exterior",
-      },
-    ],
-    description: [
-      "Blockout of a medieval house taken through several detail passes.",
-      "Focus on modular pieces that can be reused for a full village.",
-    ],
-    breakdown: {
-      title: "Breakdown",
-      items: [
-        "Established proportions and silhouette with a quick blockout.",
-        "Defined modular wall and roof pieces.",
-        "Added beams, trims and windows to break up surfaces.",
-        "Planned further passes for materials and storytelling props.",
-      ],
-    },
-  },
+  // Asset 7 - Telephone
   {
     slug: "telephone",
-    title: "Telephone",
-    subtitle: "Vintage telephone prop with layered materials.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter",
-    year: "2023",
-    tags: ["Props", "Vintage", "Storytelling"],
+    title: "Telephone | Vintage | Rusty | Environment Prop 3D",
+    software: "Blender · ZBrush · Substance 3D Painter · Adobe Photoshop",
     media: [
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/079/508/635/4k/shaurya-singh-gajawat-learning-environment-artist-rende4r-top-front.jpg?1725096669",
-        alt: "Hero render of vintage telephone",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/079/508/642/4k/shaurya-singh-gajawat-learning-environment-artist-render-back-02.jpg?1725096680",
-        alt: "Top view of the vintage telephone",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/079/508/659/4k/shaurya-singh-gajawat-learning-environment-artist-thumbnail.jpg?1725096697",
-        alt: "Side and back view of the telephone",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/079/508/650/4k/shaurya-singh-gajawat-learning-environment-artist-render-side-back-04.jpg?1725096689",
-        alt: "Front close-up of dial and details",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/079/508/639/4k/shaurya-singh-gajawat-learning-environment-artist-render-07-side-close.jpg?1725096676",
-        alt: "Back view of the telephone prop",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/079/508/652/4k/shaurya-singh-gajawat-learning-environment-artist-render-top-top-05.jpg?1725096693",
-        alt: "Side close-up of handset and base",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/079/508/645/4k/shaurya-singh-gajawat-learning-environment-artist-render-front-front-06.jpg?1725096685",
-        alt: "Angled view showing top and front",
+        alt: "-",
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/225/667/telephone-360-face-orientation.mp4",
-        caption: "Bag Video"
+        caption: "-"
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/225/672/telephone-360-greyscale.mp4",
-        caption: "Bag Video"
+        caption: "-"
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/079/508/671/4k/shaurya-singh-gajawat-learning-environment-artist-grouped.jpg?1725096709",
-        alt: "Angled view showing top and front",
+        alt: "-",
       },
     ],
     description: [
-      "A vintage telephone prop with emphasis on layered surfaces and storytelling wear.",
-      "Designed to sit as a focal prop in an interior scene.",
+      "A vintage telephone prop focused on material aging, surface wear, and small mechanical details. Rust, scratches, and roughness variation were used to give the prop a sense of history, while the lighting highlights the form, dial, and metal construction.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Gathered references from antique telephones.",
-        "Balanced gloss and roughness between metal and plastic parts.",
-        "Added dust and edge wear to suggest age.",
-        "Rendered from multiple angles to show all details.",
+        // "Gathered references from antique telephones.",
+        // "Balanced gloss and roughness between metal and plastic parts.",
+        // "Added dust and edge wear to suggest age.",
+        // "Rendered from multiple angles to show all details.",
       ],
     },
   },
+  // Asset 8 - Hammer 
+  {
+    slug: "hammer",
+    title: "Hammer | Environment Prop",
+    software: "Blender · Substance 3D Painter · ZBrush · Marmoset",
+    media: [
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/156/100/4k/shaurya-singh-gajawat-learning-environment-artist-thumbnail-hammer-render-03.jpg?1724141428",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/156/106/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-01.jpg?1724141419",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/156/112/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-03.jpg?1724141426",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/156/108/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-02.jpg?1724141422",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/079/156/115/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-04.jpg?1724141430",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/156/118/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-06.jpg?1724141438",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/156/122/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-08.jpg?1724141448",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/079/156/119/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-07.jpg?1724141442",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/079/156/117/4k/shaurya-singh-gajawat-learning-environment-artist-hammer-render-05.jpg?1724141434",
+        alt: "-",
+      },
+      {
+        type: "video",
+        src: "https://cdn.artstation.com/p/video_sources/002/225/662/hammer-360-face-oreintation.mp4",
+        caption: "Face Orientation 360 Degree | Normal"
+      },
+      {
+        type: "video",
+        src: "https://cdn.artstation.com/p/video_sources/002/225/663/hammer-greyscale-360-degree.mp4",
+        caption: "-"
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/156/126/4k/shaurya-singh-gajawat-learning-environment-artist-evee.jpg?1724141457",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/156/130/4k/shaurya-singh-gajawat-learning-environment-artist-evee-02.jpg?1724141460",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/156/132/4k/shaurya-singh-gajawat-learning-environment-artist-evee-03.jpg?1724141462",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/079/156/134/4k/shaurya-singh-gajawat-learning-environment-artist-evee-04.jpg?1724141465",
+        alt: "-",
+      },
+    ],
+    description: [
+      "A hammer environment prop focused on realistic materials and heavy surface wear. The piece emphasizes chipped metal, rough edges, and a worn wooden handle, with chain details added to enhance the sense of weight and usage. Lighting was kept simple to clearly showcase form and material breakup.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        // "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        // "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        // "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        // "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
+  },
+  // Asset 9 - Skull
+  {
+    slug: "skull",
+    title: "Cheetah Skull | Environment Sculpted Prop | ZBrush",
+    software: "ZBrush",
+    media: [
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/077/022/268/4k/shaurya-singh-gajawat-learning-environment-artist-rgfgfdgf.jpg?1718365837",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/077/022/250/4k/shaurya-singh-gajawat-learning-environment-artist-fdfdsfdsf.jpg?1718365812",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/077/022/266/4k/shaurya-singh-gajawat-learning-environment-artist-rfghfghg.jpg?1718365832",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/281/4k/shaurya-singh-gajawat-learning-environment-artist-uyuyu.jpg?1718365849",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/277/4k/shaurya-singh-gajawat-learning-environment-artist-sdasdasdas.jpg?1718365843",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/249/4k/shaurya-singh-gajawat-learning-environment-artist-fdasadasf.jpg?1718365809",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/279/4k/shaurya-singh-gajawat-learning-environment-artist-ttrterertyr.jpg?1718365847",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/077/022/240/4k/shaurya-singh-gajawat-learning-environment-artist-bdfgxdgsddg.jpg?1718365798",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/247/4k/shaurya-singh-gajawat-learning-environment-artist-dfdfd.jpg?1718365806",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/077/022/260/4k/shaurya-singh-gajawat-learning-environment-artist-gfgfgfgfdss.jpg?1718365826",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/253/4k/shaurya-singh-gajawat-learning-environment-artist-fgdgfgfdg.jpg?1718365815",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/077/022/272/4k/shaurya-singh-gajawat-learning-environment-artist-safasfasf.jpg?1718365840",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/077/022/282/4k/shaurya-singh-gajawat-learning-environment-artist-zbrush-documen-1t.jpg?1718365852",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/263/4k/shaurya-singh-gajawat-learning-environment-artist-ngj.jpg?1718365830",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/077/022/259/4k/shaurya-singh-gajawat-learning-environment-artist-gfgfgfgf.jpg?1718365823",
+        alt: "-",
+      },
+      {
+        type: "video",
+        src: "https://cdn.artstation.com/p/video_sources/002/028/334/ererere.mp4",
+        caption: "Turnaround"
+      },
+    ],
+    description: [
+      "An animal skull prop study focused on anatomical accuracy, form, and surface detail. The sculpt emphasizes bone structure, cavities, and natural asymmetry, with simple lighting used to clearly read the shapes and depth of the model.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        // "Started from a low-poly sculpt to lock proportions quickly.",
+        // "Refined details with sculpting passes focusing on cracks and cavities.",
+        // "Textured with layered dirt and discoloration maps.",
+        // "Rendered with simple lighting to clearly show form.",
+      ],
+    },
+  },
+  // Asset 10 - Tiles
   {
     slug: "tiles",
-    title: "Tiles",
-    subtitle: "Procedural and hand-authored tile materials study.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Substance 3D Designer · Painter",
-    year: "2023",
-    tags: ["Materials", "Procedural", "Surfaces"],
+    title: "Tiles Textures | Varities [Wet - Mid - Rough] | 4 Types Tiles Textures | + All Maps ",
+    software: "Substance 3D Designer · Marmoset · Blender · Adobe Photoshop",
     media: [
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/077/412/565/4k/shaurya-singh-gajawat-learning-environment-artist-grey-wolseome.jpg?1719392343",
-        alt: "Old yellow tiles with water damage",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/077/412/568/4k/shaurya-singh-gajawat-learning-environment-artist-old-yellow-wholsome.jpg?1719392349",
-        alt: "Grey tile material variation",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/077/412/563/4k/shaurya-singh-gajawat-learning-environment-artist-dirted-old-brown-tie-wholse.jpg?1719392337",
-        alt: "Brown tiles with heavy dirt and wear",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/077/412/571/4k/shaurya-singh-gajawat-learning-environment-artist-skiun-creacked-tuiles-wholesome.jpg?1719392354",
-        alt: "Extreme water-damaged tile material",
-      },
-      {
-        type: "image",
-        src: "media/images/Tiles Textures/shaurya-singh-gajawat-learning-environment-artist-old-rough-grey-water-color-tiles-main-camera.jpg",
-        alt: "Rough grey tiles with water staining",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/077/412/296/4k/shaurya-singh-gajawat-learning-environment-artist-old-dirted-rough-color-tiles-main-camera.jpg?1719391917",
-        alt: "Footpath-style tile variation",
+        alt: "Dry",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/077/412/306/4k/shaurya-singh-gajawat-learning-environment-artist-old-dirted-water-color-tiles-main-camera.jpg?1719391942",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Mid Wet/Dry",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/077/412/303/4k/shaurya-singh-gajawat-learning-environment-artist-old-dirted-extremely-water-color-tiles-main-camera.jpg?1719391932",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Wet",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/077/412/314/4k/shaurya-singh-gajawat-learning-environment-artist-old-drough-greycolor-tiles-main-camera.jpg?1719391954",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Dry",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/077/412/322/4k/shaurya-singh-gajawat-learning-environment-artist-old-rough-grey-extreme-water-color-tiles-main-camera.jpg?1719391976",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Mid Wet/Dry",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/077/412/320/4k/shaurya-singh-gajawat-learning-environment-artist-old-rough-grey-water-color-tiles-main-camera.jpg?1719391966",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Wet",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/077/412/326/4k/shaurya-singh-gajawat-learning-environment-artist-qqqfootpath-skin-tile-srough.jpg?1719391985",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Dry",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/077/412/291/4k/shaurya-singh-gajawat-learning-environment-artist-footpath-tile-skin-extremely-water.jpg?1719391907",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Mid Wet/Dry",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/077/412/329/4k/shaurya-singh-gajawat-learning-environment-artist-qqqfootpath-skin-tile-water.jpg?1719391997",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Wet",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/077/412/336/4k/shaurya-singh-gajawat-learning-environment-artist-qqqold-dirted-color-tiles-main-camera.jpg?1719392007",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Dry",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/077/412/347/4k/shaurya-singh-gajawat-learning-environment-artist-qqqqqold-dirted-water-color-tiles-main-camera.jpg?1719392027",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Mid Wet/Dry",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/077/412/342/4k/shaurya-singh-gajawat-learning-environment-artist-qqqold-dirted-extreme-water-color-tiles-main-camera.jpg?1719392018",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "Wet",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/077/412/385/4k/shaurya-singh-gajawat-learning-environment-artist-maps-all.jpg?1719392089",
-        alt: "Another extreme water-damaged tile variant",
+        alt: "All Maps + Base Colors",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/077/412/719/4k/shaurya-singh-gajawat-learning-environment-artist-sunbstacne-designer-viewport.jpg?1719392717",
+        alt: "Substance Designer Nodes Viewport",
       },
     ],
     description: [
-      "A series of tile materials focusing on water damage, roughness variation and color shifts.",
-      "Built to work both as hero surfaces and background materials.",
+      "A set of tile texture materials focused on realistic surface detail and variation. The materials explore different levels of wear, roughness, and color breakup, designed to tile seamlessly and work well in real-time environments.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Started from a base tile height and pattern in Designer.",
-        "Layered multiple grunge and leak masks.",
-        "Pushed roughness variation for better light response.",
-        "Exported to Painter and Unreal for final lookdev.",
+        // "Started from a base tile height and pattern in Designer.",
+        // "Layered multiple grunge and leak masks.",
+        // "Pushed roughness variation for better light response.",
+        // "Exported to Painter and Unreal for final lookdev.",
       ],
     },
   },
+  // Asset 11 - Carriage
   {
     slug: "carriage",
-    title: "Wooden Carriage",
-    subtitle: "A wooden carriage hero prop with storytelling details.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter",
-    year: "2023",
-    tags: ["Props", "Wood", "Storytelling"],
+    title: "Wooden Carriage | 3D Model/Asset | Blender + PBR Textures + Substance Painter | Old Work",
+    software: "Blender · Substance 3D Designer",
     media: [
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/083/292/696/4k/shaurya-singh-gajawat-learning-environment-artist-render-0001.jpg?1735475184",
-        alt: "Hero render of wooden carriage",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/083/292/707/4k/shaurya-singh-gajawat-learning-environment-artist-render-0003.jpg?1735475204",
-        alt: "Three-quarter view of carriage",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/083/292/700/4k/shaurya-singh-gajawat-learning-environment-artist-render-0002.jpg?1735475193",
-        alt: "Front view highlighting structure",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/083/292/693/4k/shaurya-singh-gajawat-learning-environment-artist-inkedrender-003.jpg?1735475169",
-        alt: "Detail view of wheel and suspension",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/083/292/695/4k/shaurya-singh-gajawat-learning-environment-artist-inkedrender-004.jpg?1735475176",
-        alt: "Close shot of carriage materials and wear",
+        alt: "-",
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/083/292/712/4k/shaurya-singh-gajawat-learning-environment-artist-render-005.jpg?1735475215",
-        alt: "Close shot of carriage materials and wear",
+        alt: "-",
       },
     ],
     description: [
-      "A wooden carriage prop focusing on structural believability and surface storytelling.",
-      "Designed to be reused in multiple medieval or fantasy scenes.",
+      "A wooden cart prop focused on storytelling through props and materials. The asset includes worn wood, cloth bundles, crates, and logs to give it a lived-in, functional feel. Surface wear and material variation were used to make the cart suitable for use in a grounded, real-time environment.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Built a clean low-poly cage for the carriage.",
-        "Added supporting beams and joints for believability.",
-        "Textured with layered dirt, mud and chipped paint.",
-        "Rendered from multiple angles to show construction.",
+        // "Built a clean low-poly cage for the carriage.",
+        // "Added supporting beams and joints for believability.",
+        // "Textured with layered dirt, mud and chipped paint.",
+        // "Rendered from multiple angles to show construction.",
       ],
     },
   },
+  // Asset 12 - Sea
   {
-    slug: "braininjar",
-    title: "Craddle of Thoughts",
-    subtitle:
-      "Real-time corridor built for third-person gameplay in Unreal Engine.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter · Designer",
-    year: "2025",
-    tags: ["Sci-Fi", "Modular", "Lighting"],
+    slug: "sea",
+    title: "Sea Storm & Bouy | Animated Environment | Game Environment",
+    software: "Blender · Adobe Photoshop",
     media: [
       {
         type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/787/478/4k/shaurya-singh-gajawat-learning-environment-artist-002-no-rays-render.jpg?1751960892",
-        alt: "Hero shot of brain-in-jar environment",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/834/530/4k/shaurya-singh-gajawat-learning-environment-artist-484823524-17849365239426418-6424053854920204834-n.jpg?1752075839",
-        alt: "Alternate angle of brain jar scene",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/834/630/4k/shaurya-singh-gajawat-learning-environment-artist-482714530-17846578269426418-7002585884920958835-n.jpg?1752075995",
-        alt: "Close-up of jar and supporting props",
-      },
-    ],
-    description: [
-      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
-    ],
-    breakdown: {
-      title: "Breakdown",
-      items: [
-        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
-        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
-        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
-      ],
-    },
-  },
-  {
-    slug: "bag1",
-    title: "Just a Bag - 1",
-    subtitle:
-      "Real-time corridor built for third-person gameplay in Unreal Engine.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter · Designer",
-    year: "2025",
-    tags: ["Props", "Hard Surface", "Backpack"],
-    media: [
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/273/092/4k/shaurya-singh-gajawat-learning-environment-artist-color.jpg?1750515281",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/379/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-shaded-005.jpg?1750515413",
-        alt: "Back view of backpack with straps",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/383/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-shaded-004.jpg?1750515418",
-        alt: "Angle shot emphasizing form and silhouette",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/273/398/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-shaded-003.jpg?1750515443",
-        alt: "Side view of backpack with pockets",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/491/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-47-50.jpg?1750515621",
-        alt: "Backpack in-engine lighting test 1",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/273/486/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-41-49.jpg?1750515611",
-        alt: "Backpack in-engine lighting test 2",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/273/490/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-46-56.jpg?1750515617",
-        alt: "Backpack in-engine lighting test 3",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/447/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-56-46.jpg?1750515547",
-        alt: "Backpack resting on ground, angled view",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/495/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-49-01.jpg?1750515628",
-        alt: "Backpack close-up of decals and labels",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/533/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-decals-closeups-001.jpg?1750515717",
-        alt: "Detail close-up of decals and surface details",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/273/416/4k/shaurya-singh-gajawat-learning-environment-artist-02.jpg?1750515475",
-        alt: "Backpack presentation render 1",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/421/4k/shaurya-singh-gajawat-learning-environment-artist-01.jpg?1750515484",
-        alt: "Backpack presentation render 2",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/273/507/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-21-51.jpg?1750515650",
-        alt: "Backpack lighting exploration shot 1",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/273/510/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-22-51.jpg?1750515654",
-        alt: "Backpack lighting exploration shot 2",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/273/514/4k/shaurya-singh-gajawat-learning-environment-artist-apr-27-2025-16-23-45.jpg?1750515659",
-        alt: "Backpack lighting exploration shot 3",
-      },
-    ],
-    description: [
-      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
-    ],
-    breakdown: {
-      title: "Breakdown",
-      items: [
-        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
-        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
-        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
-      ],
-    },
-  },
-  {
-    slug: "bag2",
-    title: "Just a Bag - 2",
-    subtitle:
-      "Real-time corridor built for third-person gameplay in Unreal Engine.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter · Designer",
-    year: "2025",
-    tags: ["Props", "Hard Surface", "Backpack"],
-    media: [
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/189/297/4k/shaurya-singh-gajawat-learning-environment-artist-shd-001.jpg?1750268935",
-        alt: "Hero render of backpack prop",
+        src: "https://cdnb.artstation.com/p/assets/images/images/079/166/233/medium/shaurya-singh-gajawat-learning-environment-artist-fine-thumnails.jpg?1724163946",
+        alt: "Sea Storm & Buoy Animated Environment Video",
       },
       {
         type: "video",
-        src: "https://cdn.artstation.com/p/video_sources/002/685/752/00002.mp4?autoplay=1&mute=1&loop=1",
-        caption: "Bag Video"
+        src: "https://cdn.artstation.com/p/video_sources/002/136/550/final-ocean-animation.mp4",
+        caption: "-"
       },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/335/4k/shaurya-singh-gajawat-learning-environment-artist-004.jpg?1750270847",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/190/460/4k/shaurya-singh-gajawat-learning-environment-artist-untitled-1.jpg?1750271020",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/455/4k/shaurya-singh-gajawat-learning-environment-artist-003.jpg?1750271009",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/190/312/4k/shaurya-singh-gajawat-learning-environment-artist-002.jpg?1750270823",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "video",
-        src: "https://cdn.artstation.com/p/video_sources/002/685/798/2.mp4",
-        caption: "Bag Video"
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/497/4k/shaurya-singh-gajawat-learning-environment-artist-7.jpg?1750271070",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/485/4k/shaurya-singh-gajawat-learning-environment-artist-6.jpg?1750271058",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/503/4k/shaurya-singh-gajawat-learning-environment-artist-5.jpg?1750271085",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/190/518/4k/shaurya-singh-gajawat-learning-environment-artist-3.jpg?1750271104",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/509/4k/shaurya-singh-gajawat-learning-environment-artist-4.jpg?1750271094",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/190/528/4k/shaurya-singh-gajawat-learning-environment-artist-2.jpg?1750271116",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "video",
-        src: "https://cdn.artstation.com/p/video_sources/002/685/801/3.mp4",
-        caption: "Bag Video"
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/190/562/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-spec-001.jpg?1750271185",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/089/190/564/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-stitches-bump-002.jpg?1750271190",
-        alt: "Hero render of backpack prop",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/089/190/567/4k/shaurya-singh-gajawat-learning-environment-artist-shauryagajawat-tex100-l10-backpack-polish-displacement-001.jpg?1750271193",
-        alt: "Hero render of backpack prop",
-      },
+
     ],
     description: [
-      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
+      "An animated ocean environment focused on dynamic waves, lighting, and atmosphere. The scene emphasizes motion and mood, using rough water, rain, and subtle light reflections to convey the intensity and isolation of a sea storm.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
-        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
-        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+        // "Blocked in terrain and major shapes to lock composition early.",
+        // "Layered foliage from large to small to avoid noisy reads.",
+        // "Used height fog and light shafts to separate foreground, midground and background.",
+        // "Added storytelling props like broken statues and offerings to suggest a forgotten history.",
       ],
     },
   },
-  {
-    slug: "grass",
-    title: "Grass Landscape",
-    subtitle:
-      "Real-time corridor built for third-person gameplay in Unreal Engine.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Substance 3D Painter · Designer",
-    year: "2025",
-    tags: ["Nature", "Environment", "Lighting"],
-    media: [
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/076/670/797/4k/shaurya-singh-gajawat-learning-environment-artist-edite-prerender-003.jpg?1717515004",
-        alt: "Hero render of grass landscape",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/076/670/765/4k/shaurya-singh-gajawat-learning-environment-artist-disc-scale.jpg?1717514963",
-        alt: "Alternate angle of grass environment",
-      },
-      {
-        type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/076/670/807/4k/shaurya-singh-gajawat-learning-environment-artist-realize.jpg?1717515018",
-        alt: "Alternate angle of grass environment",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/076/670/822/4k/shaurya-singh-gajawat-learning-environment-artist-variation-001.jpg?1717515032",
-      },
-      {
-        type: "image",
-        src: "https://cdna.artstation.com/p/assets/images/images/076/670/814/4k/shaurya-singh-gajawat-learning-environment-artist-uv-roughness-and-normal.jpg?1717515025",
-      },
-    ],
-    description: [
-      "Modular corridor environment designed for a third-person action game. Built using a trim-sheet workflow to keep the asset count low while still offering visual variety.",
-      "Lighting focuses on readability and contrast between safe and dangerous areas, with subtle VFX to bring the scene to life.",
-    ],
-    breakdown: {
-      title: "Breakdown",
-      items: [
-        "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
-        "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
-        "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
-        "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
-      ],
-    },
-  },
+  // Asset 13 - Donut
   {
     slug: "donut",
-    title: "Donut",
-    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Hand-Painted Texturing",
-    year: "2024",
-    tags: ["Stylized", "Hand-Painted", "Composition"],
+    title: "Donut | 3D Model | Various Delicious Flavors | Old Work | Learned From Blender Guru Tutorials",
+    software: "Blender · Adobe Photoshop",
     media: [
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/083/773/766/4k/shaurya-singh-gajawat-learning-environment-artist-desktop-screenshot-2024-03-26-07-21-07-91.jpg?1736774234",
-        alt: "Wide shot of clifftop shrine",
+        alt: "Donut",
       },
       {
         type: "video",
         src: "https://cdn.artstation.com/p/video_sources/002/377/173/20240326-111058.mp4",
-        caption: "Bag Video"
+        caption: "-"
       },
     ],
     description: [
-      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
-      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+      "A stylized donut prop scene focused on playful colors, soft shapes, and material definition. The piece emphasizes icing thickness, sprinkle variation, and lighting to create a visually rich and appealing still-life composition with a slightly exaggerated, game-art style.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Started with strong blockout shapes to ensure a readable silhouette.",
-        "Painted diffuse-only textures with baked lighting details for a painterly look.",
-        "Used variation in ground values to guide the player toward the shrine.",
-        "Kept geometry simple and let the texture work carry most of the detail.",
+        // "Started with strong blockout shapes to ensure a readable silhouette.",
+        // "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        // "Used variation in ground values to guide the player toward the shrine.",
+        // "Kept geometry simple and let the texture work carry most of the detail.",
       ],
     },
   },
+  // Asset 14 - Crate
   {
-    slug: "perspective1",
-    title: "VOLCANOLAND PERSPECTIVE",
-    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Hand-Painted Texturing",
-    year: "2024",
-    tags: ["Stylized", "Hand-Painted", "Composition"],
+    slug: "crate",
+    title: "Sci-Fic Crate | Environment Prop | Old Work | Re-uploaded",
+    software: "Blender · Adobe Photoshop",
     media: [
       {
         type: "image",
-        src: "https://cdnb.artstation.com/p/assets/images/images/076/696/517/4k/shaurya-singh-gajawat-learning-environment-artist-final-uplox-without-filtre.jpg?1717579338",
-        alt: "Wide shot of clifftop shrine",
+        src: "https://cdnb.artstation.com/p/assets/images/images/079/286/787/4k/shaurya-singh-gajawat-learning-environment-artist-001-1.jpg?1724487659",
+        alt: "-",
       },
       {
-        type: "video",
-        src: "https://cdn.artstation.com/p/video_sources/002/009/754/part1-split-video.mp4",
-        caption: "Bag Video"
-      },
-      {
-        type: "video",
-        src: "https://cdn.artstation.com/p/video_sources/002/009/752/part2-split-video.mp4",
-        caption: "Bag Video"
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/079/286/763/4k/shaurya-singh-gajawat-learning-environment-artist-untitled-2-3.jpg?1724487630",
+        alt: "-",
       },
     ],
     description: [
-      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
-      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+      "A modular sci-fi crate prop set focused on clean shapes, material separation, and reusability. The design emphasizes hard edges, panel details, and controlled surface wear, making the assets suitable for stacking, variation, and repeated use in a game environment.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Started with strong blockout shapes to ensure a readable silhouette.",
-        "Painted diffuse-only textures with baked lighting details for a painterly look.",
-        "Used variation in ground values to guide the player toward the shrine.",
-        "Kept geometry simple and let the texture work carry most of the detail.",
+        // "Built a low-poly and high-poly pair for clean bakes.",
+        // "Used anchor points in Painter for layered edge wear.",
+        // "Kept color accents minimal to maintain readability.",
+        // "Rendered at multiple focal lengths to test in engine.",
       ],
     },
   },
+  // Asset 15 - Knife
+  {
+    slug: "knife",
+    title: "Knife | Environment Prop 01 | Last Of Us Concept",
+    software: "Blender · Substance 3D Painter",
+    media: [
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/075/263/058/4k/shaurya-singh-gajawat-environment-props-inkedrender-006.jpg?1714117726",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/075/263/057/4k/shaurya-singh-gajawat-environment-props-inkedrender-004.jpg?1714117721",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/075/263/056/4k/shaurya-singh-gajawat-environment-props-inkedrender-003.jpg?1714117718",
+        alt: "-",
+      },
+      {
+        type: "embed",
+        src: "https://sketchfab.com/models/64271b9d55ce43258cbf41a20ba4e02e/embed?ui_infos=0",
+        caption: "-"
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/075/263/314/4k/shaurya-singh-gajawat-environment-props-desktop-screenshot-2024-04-26-13-31-36-39.jpg?1714118601",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/075/263/319/4k/shaurya-singh-gajawat-environment-props-desktop-screenshot-2024-04-26-13-32-18-00.jpg?1714118610",
+        alt: "-",
+      },
+    ],
+    description: [
+      "A knife prop focused on realistic materials and heavy surface wear. Scratches, chipped edges, and roughness variation were used to give the blade a used, story-driven feel, while the wooden handle and metal fittings balance form and functionality.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        // "Gathered reference from outdoor survival knives.",
+        // "Sculpted subtle dents and bends instead of perfect shapes.",
+        // "Textured with layered edge damage and fingerprints.",
+        // "Tested in a simple lighting scenario to balance roughness.",
+      ],
+    },
+  },
+  // Asset 16 - Remote
   {
     slug: "remote",
-    title: "A.C. Remote",
-    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Hand-Painted Texturing",
-    year: "2024",
-    tags: ["Stylized", "Hand-Painted", "Composition"],
+    title: "A.C. Remote | Hitachi | Game Prop | Old Work",
+    software: "Blender · Adobe Photoshop",
     media: [
       {
         type: "embed",
         src: "https://sketchfab.com/models/1dfde889f2664a8a86b8634b908625fe/embed?ui_infos=0",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/model3ds/images/094/704/178/smaller_square/shaurya-singh-gajawat-learning-environment-art-d53daeab76e24c14ac80473b3f47f4de.jpg?1766155730",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       }
     ],
     description: [
-      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
-      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+      "An air conditioner remote control prop focused on clean modeling, readable button layout, and realistic materials. Subtle surface wear and simple lighting were used to keep the prop clear and believable for real-time use.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Started with strong blockout shapes to ensure a readable silhouette.",
-        "Painted diffuse-only textures with baked lighting details for a painterly look.",
-        "Used variation in ground values to guide the player toward the shrine.",
-        "Kept geometry simple and let the texture work carry most of the detail.",
+        // "Started with strong blockout shapes to ensure a readable silhouette.",
+        // "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        // "Used variation in ground values to guide the player toward the shrine.",
+        // "Kept geometry simple and let the texture work carry most of the detail.",
       ],
     },
   },
+  // Asset 17 - Bloodborne
   {
     slug: "bloodborne",
-    title: "Bloodborne",
-    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Hand-Painted Texturing",
-    year: "2024",
-    tags: ["Stylized", "Hand-Painted", "Composition"],
+    title: "Bloodborne PS4 Game Cassette | 3D Environment Prop ",
+    software: "Blender · Krita · Adobe Photoshop",
     media: [
       {
         type: "embed",
         src: "https://sketchfab.com/models/7f3290fb51a94d738a82e94c6bbe0293/embed?ui_infos=0",
-        caption: "PS4 Bloodborne Cover — real-time 3D asset (Sketchfab)"
+        caption: "360 Degree | Prop"
       },
       {
         type: "image",
         src: "https://cdna.artstation.com/p/assets/images/images/079/285/916/4k/shaurya-singh-gajawat-learning-environment-artist-final-02.jpg?1724484652",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
       {
         type: "image",
         src: "https://cdnb.artstation.com/p/assets/images/images/079/285/985/4k/shaurya-singh-gajawat-learning-environment-artist-bb-uv-exported-min.jpg?1724484875",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
     ],
     description: [
-      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
-      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+      "A PlayStation game cassette environment prop focused on accurate proportions, label placement, and realistic materials. The piece emphasizes clean modeling, subtle surface wear, and readable branding, making it suitable as a background or set-dressing asset in a game environment.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Started with strong blockout shapes to ensure a readable silhouette.",
-        "Painted diffuse-only textures with baked lighting details for a painterly look.",
-        "Used variation in ground values to guide the player toward the shrine.",
-        "Kept geometry simple and let the texture work carry most of the detail.",
+        // "Started with strong blockout shapes to ensure a readable silhouette.",
+        // "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        // "Used variation in ground values to guide the player toward the shrine.",
+        // "Kept geometry simple and let the texture work carry most of the detail.",
       ],
     },
   },
+  // Asset 18 - Clifftop-shrine
+  {
+    slug: "clifftop-shrine",
+    title: "Shrine | 2D",
+    software: "Adobe Photoshop",
+    media: [
+      {
+        type: "image",
+        src: "media/images/Concept - Light Shrine/2Final.jpg",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "media/images/Concept - Light Shrine/Perpsective.jpg",
+        alt: "-",
+      },
+      {
+        type: "video",
+        src: "media/images/Concept - Light Shrine/latten fasted.mp4",
+        alt: "-",
+      },
+    ],
+    description: [
+      "A stylized lantern prop focused on shape design, soft lighting, and a hand-painted look. The glowing panels and subtle runic details add a magical tone, while simplified geometry and color variation keep the prop readable and suitable for a stylized game environment.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        // "Started with strong blockout shapes to ensure a readable silhouette.",
+        // "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        // "Used variation in ground values to guide the player toward the shrine.",
+        // "Kept geometry simple and let the texture work carry most of the detail.",
+      ],
+    },
+  },
+  // Asset 19 - Grass 
+  {
+    slug: "grass",
+    title: "Landscape | Testing Out Grass Strands | Geometry Nodes | Old Work",
+    software: "Blender",
+    media: [
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/076/670/797/4k/shaurya-singh-gajawat-learning-environment-artist-edite-prerender-003.jpg?1717515004",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/076/670/765/4k/shaurya-singh-gajawat-learning-environment-artist-disc-scale.jpg?1717514963",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/076/670/807/4k/shaurya-singh-gajawat-learning-environment-artist-realize.jpg?1717515018",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/076/670/822/4k/shaurya-singh-gajawat-learning-environment-artist-variation-001.jpg?1717515032",
+        alt:"-",
+      },
+      {
+        type: "image",
+        src: "https://cdna.artstation.com/p/assets/images/images/076/670/814/4k/shaurya-singh-gajawat-learning-environment-artist-uv-roughness-and-normal.jpg?1717515025",
+        alt: "-",
+      },
+    ],
+    description: [
+      "A realistic grass ground surface focused on natural variation in height, color, and density. The surface uses subtle patches, uneven growth, and tonal breakup to avoid repetition and create a believable outdoor environment suitable for real-time scenes.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        // "Blocked out the entire corridor using simple primitives to define proportions and player navigation space.",
+        // "Created a single trim sheet and a small set of tiling materials to handle most surfaces.",
+        // "Set up baked plus dynamic lighting to balance performance and mood for gameplay.",
+        // "Iterated on fog, volumetrics and decals to keep the focal points strong and the space readable.",
+      ],
+    },
+  },
+  // Asset 20 - Medieval Home
+  {
+    slug: "medieval-home",
+    title: "Medieval Home | 3D",
+    software: "Blender",
+    media: [
+      {
+        type: "image",
+        src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-28.jpg",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-29 (2).jpg",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-29.jpg",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-30.jpg",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "media/images/Medieval Incomplete House/photo_2023-03-25_16-30-31.jpg",
+        alt: "-",
+      },
+      {
+        type: "image",
+        src: "media/images/Medieval Incomplete House/photo_2023-03-26_14-33-17 (2).jpg",
+        alt: "-",
+      },
+    ],
+    description: [
+      "A stylized house environment model focused on structure, proportions, and shape design. The piece emphasizes clean forms, readable silhouettes, and architectural details, serving as a solid blockout before texturing and final detailing.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        // "Established proportions and silhouette with a quick blockout.",
+        // "Defined modular wall and roof pieces.",
+        // "Added beams, trims and windows to break up surfaces.",
+        // "Planned further passes for materials and storytelling props.",
+      ],
+    },
+  },
+  // Asset 21 - Perspective1
+  {
+    slug: "perspective1",
+    title: "Volcanoland | Perspective Concept Art | #1",
+    software: "Adobe Photoshop",
+    media: [
+      {
+        type: "image",
+        src: "https://cdnb.artstation.com/p/assets/images/images/076/696/517/4k/shaurya-singh-gajawat-learning-environment-artist-final-uplox-without-filtre.jpg?1717579338",
+        alt: "VOLCANOLAND PERSPECTIVE CONCEPT ART| #1",
+      },
+      {
+        type: "video",
+        src: "https://cdn.artstation.com/p/video_sources/002/009/754/part1-split-video.mp4",
+        caption: "PROGRESS VIDEO PART - 1"
+      },
+      {
+        type: "video",
+        src: "https://cdn.artstation.com/p/video_sources/002/009/752/part2-split-video.mp4",
+        caption: "PROGRESS VIDEO PART - 2"
+      },
+    ],
+    description: [
+      "A hand-drawn environment concept sketch focused on composition, scale, and architectural design. The scene explores layered buildings, rocky terrain, and depth through perspective, serving as an early visual exploration for a stylized environment setting.",
+    ],
+    breakdown: {
+      title: "Breakdown",
+      items: [
+        // "Started with strong blockout shapes to ensure a readable silhouette.",
+        // "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        // "Used variation in ground values to guide the player toward the shrine.",
+        // "Kept geometry simple and let the texture work carry most of the detail.",
+      ],
+    },
+  },
+  // Asset 22 - Apple
   {
     slug: "apple",
-    title: "Apple",
-    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Hand-Painted Texturing",
-    year: "2024",
-    tags: ["Stylized", "Hand-Painted", "Composition"],
+    title: "Just An Apple | 3D Prop",
+    software: "Blender",
     media: [
       {
         type: "image",
         src: "media/images/Apple Bited 04/4.png",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
       {
         type: "image",
         src: "media/images/Apple Bited 04/3.png",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
 
       {
         type: "image",
         src: "media/images/Apple Bited 04/5.png",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
       {
         type: "image",
         src: "media/images/Apple Bited 04/Capture.png",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
     ],
     description: [
-      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
-      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+      "A minimal still-life render focused on composition, negative space, and soft lighting. The top-down view emphasizes simplicity and balance, using clean materials and subtle reflections to draw attention to the central form.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Started with strong blockout shapes to ensure a readable silhouette.",
-        "Painted diffuse-only textures with baked lighting details for a painterly look.",
-        "Used variation in ground values to guide the player toward the shrine.",
-        "Kept geometry simple and let the texture work carry most of the detail.",
+        // "Started with strong blockout shapes to ensure a readable silhouette.",
+        // "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        // "Used variation in ground values to guide the player toward the shrine.",
+        // "Kept geometry simple and let the texture work carry most of the detail.",
       ],
     },
   },
+  //Asset 23 - Jamie
   {
     slug: "jamie",
-    title: "Jamie",
-    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Hand-Painted Texturing",
-    year: "2024",
-    tags: ["Stylized", "Hand-Painted", "Composition"],
+    title: "Jamy | Character",
+    software: "Blender",
     media: [
       {
         type: "image",
         src: "media/images/Jamie/Inkedfinal 2.jpg",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
       {
         type: "image",
         src: "media/images/Jamie/final 5.png",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
 
       {
         type: "image",
         src: "media/images/Jamie/final 6.png",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
       {
         type: "image",
         src: "media/images/Jamie/final 4.png",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
       {
         type: "image",
         src: "media/images/Jamie/final 3.png",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
       {
         type: "image",
         src: "media/images/Jamie/final 7.png",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
     ],
     description: [
-      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
-      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+      "A stylized character model focused on simple shapes, exaggerated proportions, and clean materials. The design emphasizes readability and charm, with soft lighting and bold color separation to keep the character clear and appealing in a game-style presentation.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Started with strong blockout shapes to ensure a readable silhouette.",
-        "Painted diffuse-only textures with baked lighting details for a painterly look.",
-        "Used variation in ground values to guide the player toward the shrine.",
-        "Kept geometry simple and let the texture work carry most of the detail.",
+        // "Started with strong blockout shapes to ensure a readable silhouette.",
+        // "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        // "Used variation in ground values to guide the player toward the shrine.",
+        // "Kept geometry simple and let the texture work carry most of the detail.",
       ],
     },
   },
+  // Asset 24 - GOT
   {
     slug: "got",
-    title: "Game of Thrones Book",
-    subtitle: "Hand-painted stylized shrine overlooking a dramatic sky.",
-    role: "Environment Artist",
-    engine: "Unreal Engine 5",
-    software: "Blender · Hand-Painted Texturing",
-    year: "2024",
-    tags: ["Stylized", "Hand-Painted", "Composition"],
+    title: "A Song of Ice and Fire : A Game of Thrones Book | 3D Prop",
+    software: "Blender",
     media: [
       {
         type: "image",
         src: "media/images/GOT - Book/Viewport Cycle.jpg",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
       {
         type: "image",
         src: "media/images/GOT - Book/Evee_01.jpg",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
 
       {
         type: "image",
         src: "media/images/GOT - Book/cYCLE_VIEWPORT_4.jpg",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
       {
         type: "image",
         src: "media/images/GOT - Book/cYCLE IEWPORT_03.jpg",
-        caption: "Hitachi AC Remote — real-time 3D asset (Sketchfab)"
+        caption: "-"
       },
     ],
     description: [
-      "A stylized piece focused on clear shapes, strong silhouette and hand-painted materials.",
-      "The shrine sits on a cliff edge, framed against the sky to create a clear focal point for the player.",
+      "A realistic book prop focused on material detail, surface wear, and presentation. The scene emphasizes fabric folds, subtle lighting, and realistic textures to create a cozy, grounded still-life composition while keeping the book as the clear focal point.",
     ],
     breakdown: {
       title: "Breakdown",
       items: [
-        "Started with strong blockout shapes to ensure a readable silhouette.",
-        "Painted diffuse-only textures with baked lighting details for a painterly look.",
-        "Used variation in ground values to guide the player toward the shrine.",
-        "Kept geometry simple and let the texture work carry most of the detail.",
+        // "Started with strong blockout shapes to ensure a readable silhouette.",
+        // "Painted diffuse-only textures with baked lighting details for a painterly look.",
+        // "Used variation in ground values to guide the player toward the shrine.",
+        // "Kept geometry simple and let the texture work carry most of the detail.",
       ],
     },
   },
@@ -1755,45 +1610,69 @@ const TOOL_ICON_MAP = {
   },
   "Substance 3D Painter": {
     label: "Substance 3D Painter",
-    src: "media/icons/substance-painter.png",
+    src: "media/icons/painter.png",
   },
   "Substance 3D Designer": {
     label: "Substance 3D Designer",
-    src: "media/icons/substance-designer.png",
+    src: "media/icons/designer.png",
   },
-  "Designer": {
-    label: "Substance 3D Designer",
-    src: "media/icons/substance-designer.png",
+  "Mari": {
+    label: "Mari",
+    src: "media/icons/mari.png",
   },
-  "SpeedTree": {
-    label: "SpeedTree",
-    src: "media/icons/speedtree.png",
+  "Marmoset": {
+    label: "Marmoset",
+    src: "media/icons/marmoset.png",
+  },
+  "Autodesk Maya": {
+    label: "Autodesk Maya",
+    src: "media/icons/maya.png",
+  },
+  "Adobe Photoshop": {
+    label: "Adobe Photoshop",
+    src: "media/icons/photoshop.png",
+  },
+  "Speed Tree": {
+    label: "Speed Tree",
+    src: "media/icons/SpeedTree.png",
   },
   "Unreal Engine 5": {
     label: "Unreal Engine 5",
     src: "media/icons/unreal.png",
   },
-  "Hand-Painted Texturing": {
-    label: "Hand-Painted",
-    src: "media/icons/handpainted.png",
+  "World Machine": {
+    label: "World Machine",
+    src: "media/icons/worldmachine.png",
   },
-  Painter: {
-    label: "Substance 3D Painter",
-    src: "media/icons/substance-painter.png",
+  "ZBrush": {
+    label: "ZBrush",
+    src: "media/icons/zbrush-icon.png",
+  },
+  "fSpy": {
+    label: "fSpy",
+    src: "media/icons/fSpy.png",
+  },
+  "Vray": {
+    label: "Vray",
+    src: "media/icons/vray.png",
+  },
+  "Krita": {
+    label: "Krita",
+    src: "media/icons/krita.png",
   },
 };
 
 // ================= SIDEBAR PROJECT ORDER =================
 const SIDEBAR_PROJECT_ORDER = [
-  "hammer",
-  "knife",
-  "crate",
-  "clifftop-shrine",
+  "factory",
+  "spaceship",
+  "headset",
+  "bag1",
   "arcane-cube",
+  "cube",
   "mountain-village",
-  "skull",
-  "hippo",
-  "sea",
+  "telephone",
+  "carriage",
 ];
 
 // ================= HERO SLIDER (HOME) =================
@@ -1806,7 +1685,7 @@ const nextBtn = document.querySelector(".hero-control.next");
 
 let currentIndex = 0;
 let autoplayInterval;
-const AUTOPLAY_DELAY = 4000;
+const AUTOPLAY_DELAY = 3000;
 
 if (slides.length && dotsContainer) {
   slides.forEach((_, index) => {
